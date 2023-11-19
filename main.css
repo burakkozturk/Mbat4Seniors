@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Register Side ---------- */
+
+
+.register-section {
+    display: flex;
+    height: 60px;
+    justify-content: flex-start; /* Optional: Adjust the spacing between the links */
+    align-items: center; /* Center the content vertically */
+
+}
+
+.register-buttons{
+    margin-left: 200px;
+}
+
+.register-buttons a {
+    color: gray;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.register-buttons a:hover{
+    color: orange;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+/* Navbar ---------- */
+
+
+.navigation-bar {
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between; /* Logo ve linkleri yatay olarak ayırmak için */
+    align-items: center;
+    padding: 10px;
+}
+
+.navigation-bar img {
+    max-height: 68px; /* Logo yüksekliği sınırlı olsun */
+}
+
+.navigation-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar li {
+    margin-right: 20px; /* Linkler arasındaki boşluk */
+}
+
+.navigation-bar a {
+    font-size: 18px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Slider ---------- */
