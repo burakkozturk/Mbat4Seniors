@@ -6,110 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MBat4Seniors</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
+    
+   
 <body>
 
     <div class="register-section">
         <div class="register-buttons">
-
-            <a href="#">Register</a><span style="opacity: 0.4;" > | </span>
-
+            <a href="#">Register</a><span style="opacity: 0.4;"> | </span>
             <a href="#">Login</a>
-
         </div>
-
     </div>
 
     <hr style="opacity: 0.3;">
 
-
     <div class="navigation-bar">
-
         <img src="img/logo.png" alt="">
-
         <ul>
             <li>
                 <a href="">Home</a>
-                
                 <a href="">About Us</a>
-                
                 <a href="">Objectives</a>
-                
                 <a href="">Partnership</a>
-                
                 <a href="">Results</a>
-                
                 <a href="">English</a>
-
             </li>
         </ul>
-
     </div>
 
-
-    <div class="container">
-
-        <div class="slide">
-
-            
-            <div class="item" style="background-image: url(/Mbat4Seniors/img/output-1.jpg);">
-                <div class="content">
-                    <div class="name">International in-depth Analysis</div>
-                    <div class="des">the use and impact of Mindfulness Based Art Therapy to improve the mental health of the individuals</div>
-                    <button>See More</button>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(/Mbat4Seniors/img/output-2.jpg);">
-                <div class="content">
-                    <div class="name">MBAT4Seniors Manual</div>
-                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                    <button>See More</button>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(/Mbat4Seniors/img/output-3.jpg);">
-                <div class="content">
-                    <div class="name">MBAT4Seniors Tool Kit</div>
-                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                    <button>See More</button>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(/Mbat4Seniors/img/output-4.jpg);">
-                <div class="content">
-                    <div class="name">MBAT4Seniors e-learning web platform and Android mobile application</div>
-                    <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                    <button>See More</button>
-                </div>
-            </div>
-            
-
+    
+    
+    <div class="slider-container">
+        <div class="slide fade">
+          <img class="slide-image" src="img/output-1.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">title 1</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <a href="" class="slide-btn">
+              button <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+          <!-- <div class="slide-number-container">
+            <p class="slider-number">01</p>
+            <hr>
+            <p class="slider-number">03</p>
+          </div> -->
+        </div>
+      
+        <div class="slide fade">
+          <img class="slide-image" src="img/output-2.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">title 2</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <a href="" class="slide-btn">
+              button <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+          <!-- <div class="slide-number-container">
+            <p class="slider-number">02</p>
+            <hr>
+            <p class="slider-number">03</p>
+          </div> -->
+        </div>
+      
+        <div class="slide fade">
+          <img class="slide-image" src="img/output-3.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">title 3</h3>
+            <p class="slide-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+            </p>
+            <a href="" class="slide-btn">
+              button <ion-icon name="arrow-forward-circle"></ion-icon>
+            </a>
+          </div>
+          <!-- <div class="slide-number-container">
+            <p class="slider-number">03</p>
+            <hr>
+            <p class="slider-number">03</p>
+          </div> -->
         </div>
 
-        <div class="button">
-            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        <div class="slide fade">
+            <img class="slide-image" src="img/output-4.jpg">
+            <div class="slide-content">
+              <h3 class="slide-title">title 3</h3>
+              <p class="slide-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, necessitatibus.
+              </p>
+              <a href="" class="slide-btn">
+                button <ion-icon name="arrow-forward-circle"></ion-icon>
+              </a>
+            </div>
+            <!-- <div class="slide-number-container">
+              <p class="slider-number">03</p>
+              <hr>
+              <p class="slider-number">03</p>
+            </div> -->
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <div class="slider-nav">
+          <a class="slider-nav-btn" onclick="plusSlides(-1)">
+            <ion-icon name="caret-back-outline"></ion-icon>
+          </a>
+          <a class="slider-nav-btn" onclick="plusSlides(1)">
+            <ion-icon name="caret-forward-outline"></ion-icon>
+          </a>
         </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
+      
+        <!-- The dots/circles -->
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
 
 
 
-
-    <script src="main.js"></script>
+      <script src="main.js"></script>
 
 </body>
 
