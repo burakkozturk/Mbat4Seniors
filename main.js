@@ -1,19 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const slider = document.querySelector('.slider');
-    let isSliding = false;
+let next = document.querySelector('.next')
+let prev = document.querySelector('.prev')
 
-    function nextSlide() {
-        if (!isSliding) {
-            isSliding = true;
-            slider.style.transform = 'translateX(-100%)';
-            setTimeout(() => {
-                const firstSlide = slider.children[0];
-                slider.appendChild(firstSlide);
-                slider.style.transform = 'translateX(0)';
-                isSliding = false;
-            }, 500);
-        }
-    }
+next.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').appendChild(items[0])
+})
 
-    setInterval(nextSlide, 3000); // Change slide every 3 seconds
-});
+prev.addEventListener('click', function(){
+    let items = document.querySelectorAll('.item')
+    document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
+})
