@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -31,7 +33,7 @@
 }
 
 .register-buttons a:hover {
-    color: orange;
+    color: #A12866;
     text-decoration: underline;
     transition: 0.3s;
 }
@@ -73,6 +75,11 @@
     color: black;
 }
 
+.navigation-bar a:hover{
+    color: #A12865;
+    transition: 0.3s;
+}
+
 
 /* Slider ---------- */
 
@@ -83,7 +90,7 @@
     margin: 0 auto; /* Sayfanın ortasına hizalamak için */
     position: relative;
     overflow: hidden;
-    max-height: 450px; /* Örneğin, maksimum yüksekliği 400 piksel olarak ayarlayabilirsiniz */
+    max-height: 550px; /* Örneğin, maksimum yüksekliği 400 piksel olarak ayarlayabilirsiniz */
 }
 
 .slide {
@@ -109,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     gap: 1rem;
     text-align: center;
     padding: 1rem;
@@ -118,34 +125,40 @@
     width: 100%;
     max-width: 50rem;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     text-transform: capitalize;
+    margin-top: 50px;
   }
   .slide-desc {
     width: 100%;
     max-width: 50rem;
     color: lightgray;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
   }
   .slide-btn {
-    color: black;
+    position: absolute;
+    color: #A12866;
     background-color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     gap: 0.5rem;
     font-size: 1.2rem;
     font-weight: 500;
-    margin-top: 1rem;
+    margin-top: 22rem;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     text-transform: capitalize;
     transition: ease 0.3s;
+    text-decoration: none;
+    padding: 15px 30px;
   }
   .slide-btn:hover {
     gap: 1rem;
+    color: white;
+    background-color: #A12866;
   }
   
   .slide-number-container {
@@ -189,8 +202,7 @@
     transition: ease 0.3s;
   }
   .slider-nav-btn:hover {
-    background-color: white;
-    color: black;
+    background-color: #A12866;
   }
   
   .dot-container {
@@ -215,7 +227,7 @@
   }
   .active,
   .dot:hover {
-    background-color: white;
+    background-color: #A12866;
   }
   
   .fade {
@@ -230,4 +242,158 @@
       opacity: 1;
     }
   }
+
+
   
+/* Feature Boxes ---------- */
+
+  .feature-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.feature-box {
+    border-radius: 7%;
+    border-bottom: 2px solid #A12865;
+    background-color: #ffe5ec;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    margin: 10px;
+}
+
+.feature-box img {
+    width: 90px;
+    height: auto;
+}
+
+.feature-box h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.feature-box h6 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.feature-box p {
+    color: #555;
+}
+
+.feature-box:hover{
+    background-color: aliceblue;
+    transition: 0.4s ease;
+    border-radius: 12px;
+}
+
+
+
+/* Title ---------- */
+
+.title-section{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-section a{
+    font-size: x-large;
+    color: aliceblue;
+    text-decoration: none;
+    background: linear-gradient(to right, #A12866, #8093f1); /* Adjust the colors as needed */
+    padding: 15px 110px;
+}
+
+
+.content-section{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+.image-header-description {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.image-header-description img {
+    width: 450px;
+    height: 250px;
+}
+
+.header-description-content {
+    margin-top: 45px;
+}
+
+.header-description-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.header-description-content p {
+    color: #555;
+}
+
+/* Update the feature-boxes style */
+
+
+/* Add the following style to ensure equal spacing between items */
+.image-header-description {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+.erasmus-section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.erasmus-section p{
+    color: #1A1A1A;
+}
+
+.erasmus-section img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+
+.footer{
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer a,p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer a:hover{
+    color: #A12865;
+    transition: 0.3s;
+}
