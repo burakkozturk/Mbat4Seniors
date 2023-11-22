@@ -1,84 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-/* Register Side ---------- */
-
-
-.register-section {
-    display: flex;
-    height: 60px;
-    justify-content: flex-start;
-    /* Optional: Adjust the spacing between the links */
-    align-items: center;
-    /* Center the content vertically */
-
-}
-
-.register-buttons {
-    margin-left: 16%;
-}
-
-.register-buttons a {
-    color: gray;
-    text-decoration: none;
-    font-size: 13px;
-    text-transform: uppercase;
-    padding: 10px;
-}
-
-.register-buttons a:hover {
-    color: #A12866;
-    text-decoration: underline;
-    transition: 0.3s;
-}
-
-/* Navbar ---------- */
-
-
-.navigation-bar {
-    margin-left: 16%;
-    margin-right: 16%;
-    display: flex;
-    justify-content: space-between;
-    /* Logo ve linkleri yatay olarak ayırmak için */
-    align-items: center;
-    padding: 10px;
-}
-
-.navigation-bar img {
-    max-height: 68px;
-    /* Logo yüksekliği sınırlı olsun */
-}
-
-.navigation-bar ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation-bar li {
-    margin-right: 20px;
-    /* Linkler arasındaki boşluk */
-}
-
-.navigation-bar a {
-    font-size: 18px;
-    margin-left: 40px;
-    text-decoration: none;
-    color: black;
-}
-
-.navigation-bar a:hover{
-    color: #A12865;
-    transition: 0.3s;
-}
 
 
 /* Slider ---------- */
@@ -343,10 +262,6 @@
     color: #555;
 }
 
-/* Update the feature-boxes style */
-
-
-/* Add the following style to ensure equal spacing between items */
 .image-header-description {
     margin-right: 10px; /* Adjust the margin as needed */
 }
@@ -358,6 +273,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .erasmus-section p{
@@ -372,28 +288,3 @@
 }
 
 
-
-
-
-.footer{
-    background-color: #1A1A1A;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.footer a,p {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25px;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.footer a:hover{
-    color: #A12865;
-    transition: 0.3s;
-}

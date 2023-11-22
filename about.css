@@ -1,0 +1,46 @@
+
+
+.container {
+    margin: 0 18%;
+}
+
+.container p{
+    color: black;
+}
+.container img{
+    height: 500px;
+    border-radius: 12%;
+    width: 550px;
+    height: 300px;
+}
+
+.container .first-p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.first-section{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.first-section p {
+    font-size: 22px;
+    margin-bottom: 15%;
+}
+
+
+.second-section{
+    text-align: center;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section p {
+    margin-right: 20px;
+    font-size: 22px;
+    margin-bottom: 15%;
+}
