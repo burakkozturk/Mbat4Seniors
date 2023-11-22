@@ -26,10 +26,14 @@
     justify-content: center;
 }
 
-.objectives img{
+.objectives .img{
     justify-content: center;
     width: 25%;
 
+}
+
+.objectives .img img{
+    width: 180px;
 }
 
 .objectives h3{
