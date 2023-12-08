@@ -245,8 +245,8 @@
 .content-container{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .top-content-items{
@@ -263,8 +263,8 @@
 }
 
 .content-box img{
-  width: 100%;
-  height: 285px;
+  width: 500px;
+  height: 250px;
 }
 
 .content-box p{
