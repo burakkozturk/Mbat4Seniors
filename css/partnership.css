@@ -27,18 +27,18 @@
     height: 350px;
 }
 
-.box h3{
-    color: black;
-}
 
 .box img {
     
     margin-top: 10px;
     margin-bottom: 50px;
-    width: 250px;
-    height: 150px;
+    width: 150px;
+    height: 100px;
 }
 
+.box h3{
+    color: black;
+}
 .box a{
     margin-bottom: 50px;
     color: blue;
