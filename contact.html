@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim Formu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+
+
+
+    <div class="vertical-boxes">
+        <a href="../index.html">
+            <div class="image-box">
+                <img src="../img/united-kingdom.png" alt="">
+            </div>
+        </a>
+        <a href="../tr/index.html">
+            <div class="image-box">
+                <img src="../img/turkey.png" alt="">
+            </div>
+        </a>
+        <a href="../lt/index.html">
+            <div class="image-box">
+                <img src="../img/lithuania.png" alt="">
+            </div>
+        </a>
+        <a href="../sp/index.html">
+            <div class="image-box">
+                <img src="../img/spain.png" alt="">
+            </div>
+        </a>
+        <a href="../da/index.html">
+            <div class="image-box">
+                <img src="../img/denmark.png" alt="">
+            </div>
+        </a>
+        <a href="../po/index.html">
+            <div class="image-box">
+                <img src="../img/poland.png" alt="">
+            </div>
+        </a>
+        <a href="../gr/index.html">
+            <div class="image-box">
+                <img src="../img/greece.png" alt="">
+            </div>
+        </a>
+    </div>
+
+
+    <hr style="opacity: 0.3;">
+
+    <div class="navigation-bar">
+        <img src="../img/logo.png" alt="">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+                <a href="/en/partnership.html">Partnership</a>
+                <a href="/en/objectives.html">Objectives</a>
+                <a href="/en/about.html">About Mbat</a>
+                <a href="https://mbat4seniors-script.vercel.app">Platform</a>
+                <a href="/en/result.html">Results</a>
+                <a href="/contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="banner">
+        <img src="../img/img-banner-3.jpg" alt="">
+        <h1>Contact</h1>
+    </div>
+
+
+    <div class="container">
+        <form id="contactForm" action="send_mail.php" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Adress:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <div class="logo-side">
+            <img src="../img/logo.png" alt="">
+        </div>
+        <div class="link-side">
+            <a href="../privacy.html">Privacy Policy</a>
+            <p>
+                MBAT4Seniors All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <script>
+        // JavaScript kodu buraya eklenecek
+    </script>
+
+</body>
+
+</html>
