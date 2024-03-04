@@ -40,8 +40,8 @@
 /* Navbar ---------- */
 
 .navigation-bar {
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: 12%;
+    margin-right: 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
