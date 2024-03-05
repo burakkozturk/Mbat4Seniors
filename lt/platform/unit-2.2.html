@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindfulness Practiced-Based ... || Platform</title>
+    <link rel="stylesheet" href="unit-1.1.css">
+    <link rel="stylesheet" href="../../css/home.css">
+</head>
+
+<body>
+
+    <div class="vertical-boxes">
+        <a href="../../index.html">
+            <div class="image-box">
+                <img src="../../img/united-kingdom.png" alt="">
+            </div>
+        </a>
+        <a href="../../tr/index.html">
+            <div class="image-box">
+                <img src="../../img/turkey.png" alt="">
+            </div>
+        </a>
+        <a href="../../lt/index.html">
+            <div class="image-box">
+                <img src="../../img/lithuania.png" alt="">
+            </div>
+        </a>
+        <a href="../../sp/index.html">
+            <div class="image-box">
+                <img src="../../img/spain.png" alt="">
+            </div>
+        </a>
+        <a href="../../da/index.html">
+            <div class="image-box">
+                <img src="../../img/denmark.png" alt="">
+            </div>
+        </a>
+        <a href="../../po/index.html">
+            <div class="image-box">
+                <img src="../../img/poland.png" alt="">
+            </div>
+        </a>
+        <a href="../../gr/index.html">
+            <div class="image-box">
+                <img src="../../img/greece.png" alt="">
+            </div>
+        </a>
+    </div>
+
+
+    <hr style="opacity: 0.3;">
+
+    <div class="navigation-bar">
+        <img src="../../img/logo.png" alt="">
+        <ul>
+            <li>
+                <a href="../../index.html">Home</a>
+                <a href="../partnership.html">Partnership</a>
+                <a href="../objectives.html">Objectives</a>
+                <a href="/en/platform/courses.html">Platform</a>
+                <a href="../about.html">About MBAT</a>
+                <a href="../result.html">Results</a>
+                <a href="../../contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Vertical boxes and navigation bar skipped for brevity -->
+
+    <div class="unit-content">
+        <h2>Mindfulness Practiced-Based Art Techniques for the elderly</h2>
+        <div class="content-item">
+            <h3>Content</h3>
+            <p id="content"></p>
+            <div id="navigationButtons">
+                <button onclick="previousContent();" class="next-button">Previous</button>
+                <button onclick="nextContent();" class="next-button">Next</button> <!-- Class updated -->
+            </div>
+            <button id="doneButton" onclick="window.location.href = 'unit-2.html';" class="done-button"
+                style="display: none;">Done</button>
+            <button onclick="window.open('https://publuu.com/flip-book/407189/920949', '_blank');"
+                class="view-button">View PDF</button>
+            <button onclick="window.location.href = 'quiz-2.2.html';" class="quiz-button">Quiz</button>
+
+        </div>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const contents = [
+            "Ypatingos situacijos: Specialios intervencijos technikos yra mokomos specialioms situacijoms, su kuriomis gali susidurti menų terapijos praktikos, tokios kaip traumos, ligos, liūdesys.\nMenų terapijoje yra įvairių atvejų. Ypač senyvių ir sergančių žmonių negalavimai turi būti gerai apibrėžti. Pavyzdžiui, pastebėta, kad vėžio pacientai turi mažesnį pykčio valdymą nei normalūs sveiki asmenys (Durualp ir Altay, 2012). Pastebėta, kad vėžio pacientai turi mažesnį nepasitikėjimą, pasitikėjimo stoka ir sąžiningumo trūkumą. Šiuo atžvilgiu menų terapijos technikos ir temos nustatomos pagal pacientų pažeidžiamumus. Kitas pažeidžiamas situacijas yra sužalojami asmenys. Tai, kad jie yra jautresni nei normalūs asmenys, jų nerimo lygiai yra aukšti ir jie nejaučia saugumo, yra klausimai, kuriuos reikia apsvarstyti terapijoje. Paveikslų terapijos taikymas sužalojamiems asmenims bus veiksmingas jų atsipalaidavime.\nAlzheimerio pacientams sumažėjo gyvenimo kokybė. Šiuo atžvilgiu svarbu taikyti terapijas, kurios padidina tokių pacientų gyvenimo kokybę. Menų terapijos dėka pastebėta, kad demencijos pacientų savęs pojūtis pagerėjo, jų socializacijos įgūdžiai padidėjo ir pasitikėjimas savimi padidėjo (Chancellor, Duncan ir Chatterjee, 2014).\nKlinikinis stazas (jei reikia): Kai kurie mokymo programos apima klinikinį stazą. Šiuose stazavimuose įgyjama patirtis, dirbant su tikrais senyvo amžiaus asmenimis, ir plėtojami praktiniai įgūdžiai.\nSąmoningumo pagrindu paremtas menų terapijos mokymas vyresnio amžiaus žmonėms dažniausiai skirtas mokinti pagrindinių menų terapijos praktikų žinių ir įgūdžių, siekiant padidinti senyviųjų gyvenimo kokybę, apsaugoti jų psichinę sveikatą ir pagerinti jų psichinę gerovę.\n",
+            "Vieno į vieną bendravimas palengvina individualizuotą instruktavimą, skirtą vyresnio amžiaus žmonėms mokyti menų terapijos būdu:\nPriderinimas mokymo požiūriui (Suh ir Kim, 2023) prie kiekvieno vyresnio amžiaus mokinio konkrečių poreikių, interesų ir mokymosi stilių. Tai užtikrina stiprų ryšį tarp edukatoriaus ir senjoro, sukurdami saugią ir remiančią mokymosi aplinką. Per šį artimą sąveiką edukatoriai gali nustatyti mokymosi kliūtis, spręsti individualius iššūkius ir prisitaikyti mokymo strategijas atitinkamai.\n",
+            // Kitus paragrafus pridėkite čia
+            "Muzika\nMuzika yra viena seniausių menų terapijų. Muzika, religinių tikėjimų medžiaga, yra technika, skirta vargti blogų dvasių. Ji ypač naudojama gydant miego problemas vaikams. Šiandien Amerikoje veikia muzikos terapijos centrai. Muzika naudojama tiek kaip gydymo priemonė, tiek kaip meninis veikimas. Muzika žinoma kaip ritmas, lydintis žmonių jausmus ir mintis. Šiuo tikslu ji yra neišvengiama menų terapijos medžiaga.\n",
+            "Koliažas\nKoliažo menų terapijoje nustatoma, koks yra asmenio vaizduotės etapas. Koliažu vadinamas, kai objektai, tokie kaip laikraščiai, žurnalai ir audiniai, skirtingais būdais iškerpami ant žemės, kad būtų sukurta kompozicija. Koliažo terapijoje namuose rinkami produktai renkami kaip medžiagos. Koliažo terapija yra metodas, naudojamas ypač tiems, kurie nenori tapyti ir piešti.\n",
+            "Metodai\nSenyvo amžiaus žmonėms taikomi įvairūs metodai ir technikos sąmoningumo pagrindu paremtai menų terapijos mokymui. Šie metodai ir technikos padeda vyresnio amžiaus žmonėms išreikšti save, pasidalinti savo emocinėmis patirtimis ir atsipalaiduoti kūrybiškumą.\nKai kurie metodai pateikiami:\nVaizduojamieji menai: Senyviems asmenims gali būti suteiktos įvairios medžiagos, skirtos dirbti su vaizduojamaisiais menais, tokiomis kaip tapyba, piešimas ir dailinimas. Šis metodas padeda senjorams atsipalaiduoti savo kūrybiškumą ir išreikšti savo emocines išraiškas per paveikslus.\nDrama ir teatras: Užsiimant drama ir teatru, senyvo amžiaus asmenys tobulina savo emocinės išraiškos įgūdžius. Užtikrinama, kad senjorai išreiškia save vaidindami vaidmenis, pasidalina savo emocinėmis patirtimis ir sukuria empatiją.\nPasakojimas: Senyviems asmenims gali būti suteikta galimybė tobulinti savo emocinės išraiškos įgūdžius per pasakojimus. Senjorai gali dalintis savo emocinėmis išraiškomis, pasakodami savo istorijas, įkvėpti savo gyvenimo ar patirties.\nMuzika: Užsiimant muzika, senyvo amžiaus asmenys tobulina savo emocinės išraiškos įgūdžius. Skatinama senyvųjų išreikšti savo jausmus per veiklas, tokiomis kaip instrumento grojimas ar dainavimas.\nSąmoningumo praktikos: Vyresnio amžiaus žmonių sąmoningumo pagrindu paremtos menų terapijos mokymuose siekiama sumažinti stresą ir nerimą, naudojant sąmoningumo technikas.\nSenyvo amžiaus žmonių sąmoningumo pagrindu paremtas menų terapijos mokymas gali būti taikomas daugybe skirtingų technikų ir metodų, papildomai prie minėtų metodų. Šie mokymai padeda senyvo amžiaus žmonėms išreikšti save, atskleisti savo kūrybiškumą ir apsaugoti savo psichinę sveikatą.\n",
+            "Tyrimas ir etika: Menų terapijos praktikose aptariamos etikos taisyklės, tyrimo metodai, duomenų rinkimas ir praktinės vertinimo priemonės. Etika yra labai svarbus klausimas menų terapijoje. Šiuo atžvilgiu menų terapijos mokymai turėtų būti gauti iš vietų, kurios turi sertifikuotą akreditaciją, patvirtintą etikos komitetų. Pažvelgus į Amerikos menų terapijos asociacijos - AMERIKOS MENŲ TERAPIJOS ASOCIACIJA (2013) paskelbtas etikos vertybes, iš esmės:\n· Atsakomybės jausmas; mokytojai turi būti atsakingi savo klientams.\n· Konfidencialumas; jie profesioniškai saugo visą klientų informaciją ir jos nepasidalina su niekuo kitu.\n· Vertinimas: terapeutai taiko vertinimo metodus, kad geriau pažintų savo klientus.\n· Klientų kūriniai; terapeutai saugo klientų meno produktus taip pat kaip informaciją ir jų nepasidalina.\n· Klientų kūrinių paroda; teisini leidimai turi būti gauti iš kūrinio savininko, t. y. kliento, norint parodyti kūrinį.\n· Profesinis kompetencija ir sąžiningumas; terapeutai turi turėti profesionalų mokymą.\n· Terapeutas turėtų būti daugiakultūriškas ir kompetentingas; jie turėtų galėti bendrauti su visokiais klientais.\n· Terapeutai turėtų būti modeliai studentams ir patarėjams.\n· Terapeutai turėtų būti pavyzdžiai tyrimuose dalyvaujantiems tyrėjams.\n· Terapeutai turėtų jausti atsakomybę savo profesinės grupės kolegoms.\n· Terapijos turėtų būti finansiškai suderintos.\n· Terapeutai gali dalyvauti tinkamuose reklamos veiklų mokymuose.\n· Menų terapijose klientai turi teisę laisvai nutraukti terapiją, jei nėra patenkinti.\n· Terapeutai gali naudoti internetą, socialinius tinklus ir skaitmenines technologijas.\nIš esmės, būti menų terapeutas yra būti pagal etikos taisykles. Visų pirma, ypač senyvių ir pacientų teises reikia saugoti. Senjorų asmeniniai padėtys niekada neturėtų būti pasidalijami su niekuo kitu. Tačiau gyvybei pavojinga informacija turi būti profesioniškai pasidalinama su tais, kurie yra paciento atsakomybės srityje.\n",
+            "Mokymas paprastai struktūruojamas interaktyviai, naudojant praktinius pavyzdžius ir atvejų studijas, kad būtų gerinamas mokymo procesas. Taip pat pabrėžiama profesinio ir etiško požiūrio įgyvendinimas dirbant su vyresnio amžiaus asmenimis.\nŠvietimo programos (Huxtable et al., 2022) gali siūlyti mokymąsi įvairiuose lygiuose, kiekvienam su savo dėmesiu. Kai kurie kursai apima menų terapijos ir sąmoningumo pagrindų mokymąsi senyvo amžiaus žmonėms, o kiti giliau įsigilina į pažangias temas, tokiomis kaip planavimas, įgyvendinimas ir menų terapijos procesų vertinimas.\nSąmoningumo pagrindu paremtas menų terapijos mokymas senyvo amžiaus žmonėms apima tiek akademinius, tiek klinikinius aspektus. Dalyviai mokosi, kaip projektuoti intervencijas, siekiant pagerinti vyresnio amžiaus žmonių psichinę gerovę, naudojant menų terapijos technikas.\nMokymas (Durost, 2011) pabrėžia menų terapijos naudojimą ir privalumus senyvo amžiaus žmonėms, nustato rizikos veiksnius, turinčius įtakos senyvo amžiaus suaugusiųjų emocinei ir psichinei sveikatai, aptaria terapinių procesų plėtotę ir įgyvendinimą bei tyrinėja menų terapijos rezultatų vertinimo metodus.\nSąmoningumo pagrindu paremtas menų terapijos mokymas senyvo amžiaus žmonėms yra galimybė profesinei raidai ir sąmoningumo kėlimui, galiausiai pagerinant vyresnio amžiaus asmenų gyvenimo kokybę. Sveikatos specialistai, dirbantys su vyresnio amžiaus suaugusiaisiais, gali tapti kūrybingesni ir efektyvesni savo intervencijose dėl šios populiacijos psichinės ir psichinės sveikatos privalumų supratimo. Dėl to vyresnio amžiaus žmonės gali gyventi sveikesnį, laimingesnį ir turtingesnį gyvenimą.\n",
+            "Menų terapijos praktikos įgūdžiai: Teikiamos praktinės pamokos menų terapijos praktikos įgūdžiams. Šiuose kursuose mokomi būtini technikos, medžiagos, taikymo metodai ir vertinimo technikos, skirtos darbui su vyresniaisiais.\nKaip minėta, menų terapijos technikos yra efektyviausi metodai ypač senyviems asmenims. Šiuo atžvilgiu meninės veiklos, tokių kaip molio gaminimas, tapyba, tapyba, muzika, drama, rankdarbiai ir ebru, išpopuliarėja menų terapijos technikose. Menų terapija ne tik prisideda prie pacientų dvasinio gydymo, bet ir suteikia dvasinį malonumą instruktoriui. Ypač menų terapija leidžia jaunajai ir vyresniajai kartai susitikti instruktorių buvimo metu vyresnių žmonių priežiūros centruose.\nPavyzdinio tyrimo, atliktinio Altan Sarıkaya ir Oğuz (2016), metu pastebėta, kad miego problemų turintys senyvo amžiaus žmonės senelių priežiūros centre sureguliavo miegą su muzikos terapija. Šiame veikla buvo taikoma muzikos menų terapijos technika.\n",
+            "Molis yra populiarus menų terapijos dalis. Ypač praeityje žmonės naudojosi molio gamyba, kad patenkintų savo pagrindinius poreikius virtuvės reikmenimis. Naujausiu metu molis ne tik palengvina gyvenimą, bet ir sukelia dvasinį atsipalaidavimą. Taip asmuo tobulina rankų įgūdžius ir turi galimybę atsikratyti neigiamos energijos per molį. Susisiekimas su moliu sukelia teigiamus ar neigiamus jausmus asmenyje.",
+            "Sąmoningumo pagrindu paremtas menų terapijos mokymas vyresnio amžiaus žmonėms dažniausiai skirtas mokinti pagrindinių menų terapijos praktikų žinių ir įgūdžių, siekiant padidinti senyviųjų gyvenimo kokybę, apsaugoti jų psichinę sveikatą ir pagerinti jų psichinę gerovę.\nMokymai, skirti senyvo amžiaus žmonėms, gali būti struktūruoti pagal mokymo metodus, kurie atsižvelgia į senyviųjų asmenų unikalius poreikius ir gebėjimus. Tai gali apimti praktinius užsiėmimus, paremtus vaizduotės ir sąmoningumo technikomis, taip pat interaktyvius pokalbius ir refleksijas.\n",
+            "Muzikos terapija\nMuzikos terapija yra menų terapijos forma, kuri naudoja muziką kaip priemonę pacientų emociniam, fiziniam, socialiniam ir psichologiniam gydymui. Muzikos terapija gali būti taikoma individualiai arba grupei, ir ji gali būti naudojama gydant įvairias sąlygas, įskaitant depresiją, stresą, autizmą, Alzheimerio ligą ir kitas psichines ir fizinės sveikatos problemas. Muzikos terapija gali apimti įvairias veiklas, tokias kaip dainavimas, instrumentų grojimas, muzikos klausymasis ir kompozicija.\n",
+            "Menų terapijos mokymo kursai vyresnio amžiaus žmonėms gali būti struktūruoti įvairiai, atsižvelgiant į jų poreikius ir gebėjimus. Kai kurie kursai gali būti orientuoti į pagrindinių menų terapijos principų ir metodų supratimą, o kiti gali būti skirti pažangesnėms temoms, tokioms kaip menų terapijos planavimas ir įgyvendinimas. Svarbu, kad menų terapijos mokymo kursai vyresnio amžiaus žmonėms būtų individualizuoti ir atsižvelgtų į jų unikalius poreikius ir gebėjimus.\n",
+        ];
+
+
+        function updateContent() {
+            document.getElementById("content").innerText = contents[currentIndex];
+            document.getElementById("doneButton").style.display = currentIndex === contents.length - 1 ? "block" : "none";
+            document.getElementById("navigationButtons").style.display = currentIndex === contents.length - 1 ? "none" : "block";
+        }
+
+        function nextContent() {
+            if (currentIndex < contents.length - 1) {
+                currentIndex++;
+                updateContent();
+            }
+        }
+
+        function previousContent() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateContent();
+            }
+        }
+
+        // Initialize the content with the first item
+        updateContent();
+    </script>
+</body>
+
+</html>

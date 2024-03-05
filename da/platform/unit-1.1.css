@@ -1,0 +1,83 @@
+.unit-content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.unit-content h2 {
+    text-align: center;
+    color: #A12866;
+    margin-bottom: 20px;
+}
+
+.content-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.content-item p {
+    font-size: large;
+    color: #333;
+}
+
+.view-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4ad66d; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.view-button:hover {
+    background-color: #4ad66d;
+
+}
+
+
+.done-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #A12866; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.next-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #219ebc; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+
+.quiz-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8338ec; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
