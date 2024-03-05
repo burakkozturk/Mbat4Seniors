@@ -1,0 +1,159 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "What is the primary focus when applying the circular economy and eco-friendly approach in MBAT?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Emphasizing expensive art materials",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Promoting wasteful disposal practices",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Using sustainable and non-toxic materials for art-making",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Ignoring the environmental impact of art materials",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "How can clients be encouraged to reduce waste in MBAT, according to the information provided?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "By discarding materials after a single use",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "By avoiding the use of recycled paper",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "By reusing and repurposing art materials",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "By using only synthetic dyes in art projects",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Which approach involves transforming waste materials into new, useful products in MBAT?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "Mindful Consumption",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "Collaborative art-making",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "Environmentally conscious disposal",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "Upcycling",
+                        "questionId": 3,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "How can MBAT be tailored to meet the unique needs and abilities of seniors in terms of circular economy and eco-friendly principles?                ",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "By discouraging the use of digital tools",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "By promoting wasteful disposal practices",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "By incorporating nature-based activities",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "By avoiding collaboration on art projects",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "What is the importance of environmentally conscious disposal in MBAT?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "It supports proper disposal of hazardous waste",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "It encourages hoarding of art materials",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "It promotes the use of hazardous waste",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "It discourages any form of disposal",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

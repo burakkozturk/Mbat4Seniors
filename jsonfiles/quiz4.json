@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "According to the text, who introduced the concept of Mindfulness-Based Art Therapy (MBAT) and in which year was it introduced?                ",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Jon Kabat-Zinn in 1979",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Laury Rappaport in 2009",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "The Stress Reduction Clinic in the 1940s",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "The Focusing Institute in 2014",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "What is the primary advantage of MBAT mentioned in the text?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "It requires therapeutic conversations",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "It can only be practiced in a therapeutic environment",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "It can be practiced independently at home",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "It is exclusively focused on the finished artistic product",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Which well-known art therapy approach is mentioned as being used in the MBAT approach in the text?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "Decoupage therapy",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "Mandala drawing therapy",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "Drama therapy",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "Music therapy                        ",
+                        "questionId": 3,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "How does MBAT contribute to the quality of life of the elderly, as per the information provided?                ",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "By focusing on the finished artistic product",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "By emphasizing therapeutic conversations",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "By providing relief from worrying thoughts",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "By excluding creative processes",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

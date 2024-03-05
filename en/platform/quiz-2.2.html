@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz || EN</title>
+
+    <link rel="stylesheet" href="../../css/home.css">
+
+    <style>
+        .all {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            /* Maksimum genişlik */
+            width: 100%;
+            /* Genişliği ekrana göre ayarla */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Hafif bir gölge ekle */
+            margin: 20px;
+            /* Üstten ve alttan boşluk ekle */
+            border-radius: 8px;
+            /* Köşeleri yuvarla */
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        .option-label {
+            display: block;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .option-input {
+            margin-right: 10px;
+        }
+
+        #submitBtn,
+        #doneButton {
+            display: block;
+            /* Butonları blok seviyesinde göster */
+            margin: 20px auto;
+            /* Otomatik marjın ile merkezde konumlandır */
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #008CBA;
+            color: white;
+        }
+
+        #doneButton {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="vertical-boxes">
+        <a href="../index.html">
+            <div class="image-box">
+                <img src="../../img/united-kingdom.png" alt="">
+            </div>
+        </a>
+        <a href="../tr/index.html">
+            <div class="image-box">
+                <img src="../../img/turkey.png" alt="">
+            </div>
+        </a>
+        <a href="../lt/index.html">
+            <div class="image-box">
+                <img src="../../img/lithuania.png" alt="">
+            </div>
+        </a>
+        <a href="../sp/index.html">
+            <div class="image-box">
+                <img src="../../img/spain.png" alt="">
+            </div>
+        </a>
+        <a href="../da/index.html">
+            <div class="image-box">
+                <img src="../../img/denmark.png" alt="">
+            </div>
+        </a>
+        <a href="../po/index.html">
+            <div class="image-box">
+                <img src="../../img/poland.png" alt="">
+            </div>
+        </a>
+        <a href="../gr/index.html">
+            <div class="image-box">
+                <img src="../../img/greece.png" alt="">
+            </div>
+        </a>
+    </div>
+
+
+    <hr style="opacity: 0.3;">
+
+    <div class="navigation-bar">
+        <img src="../../img/logo.png" alt="">
+        <ul>
+            <li>
+                <a href="../../index.html">Home</a>
+                <a href="../partnership.html">Partnership</a>
+                <a href="../objectives.html">Objectives</a>
+                <a href="/en/platform/courses.html">Platform</a>
+                <a href="../about.html">About MBAT</a>
+                <a href="../result.html">Results</a>
+                <a href="../../contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div class="all">
+
+
+            <div class="container" id="quizContainer">
+                <h2 style="color: #A12866;">Self-evaluation questions</h2>
+            </div>
+            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+
+        </div>
+        <script>
+
+            const quizData = [
+            {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "What is the primary goal of mindfulness-based art therapy training for the elderly, as mentioned in the text?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Enhancing physical health",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Developing artistic skills",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Improving emotional and mental well-being",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Exploring historical art techniques",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Which aspect of elderly individuals does the training emphasise, highlighting the importance of respecting their authenticity and life experiences?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Physical abilities",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Cognitive skills",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Emotional and mental well-being",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Social interactions",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "What is the primary focus of the training's structure, utilizing practical examples and case studies?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "Theoretical knowledge",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "Ethical principles",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "Interactive learning",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "Clinical Internship",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "What are some of the topics covered in the educational programs related to mindfulness-based art therapy for the elderly?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Planning, implementation, and evaluation",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Ecology and circular economy",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Physics and chemistry",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Social and political issues",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "According to the text, which art therapy technique is considered the most basic?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Collage",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Music",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Drama",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Painting",
+                        "questionId": 5,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "How is collage therapy described in the text?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "A method using only digital materials",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "A technique for painting and drawing",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "The use of everyday objects in art therapy",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "A method exclusively for trauma patients",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "What is the purpose of using clay in art therapy, as described in the text?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "To meet basic needs for kitchen utensils                        ",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "To create complex artworks                        ",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "To develop hand skills and provide spiritual relaxation",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "To replace traditional therapy methods                        ",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "According to the text, what is discussed in the section on 'Research and ethics' related to art therapy practices?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Historical background of art therapy",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Ethical values and principles",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Marketing strategies for art therapists",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Art therapy techniques for trauma relief",
+                        "questionId": 5,
+                        "correct": true
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+            ];
+
+
+            let userAnswers = new Array(quizData[0].questions.length).fill(null);
+
+            function createQuiz() {
+                const quizContainer = document.getElementById('quizContainer');
+                quizData[0].questions.forEach((question, qIndex) => {
+                    const questionEl = document.createElement('div');
+                    questionEl.classList.add('question');
+                    questionEl.innerHTML = `<h3>${qIndex + 1}. ${question.questionText}</h3>`;
+
+                    const optionsEl = document.createElement('div');
+                    optionsEl.classList.add('options');
+
+                    question.options.forEach((option, oIndex) => {
+                        const optionId = `question-${qIndex}-option-${oIndex}`;
+                        const optionInput = document.createElement('input');
+                        optionInput.type = 'radio';
+                        optionInput.id = optionId;
+                        optionInput.name = `question-${qIndex}`;
+                        optionInput.value = option.correct;
+                        optionInput.classList.add('option-input');
+
+                        const optionLabel = document.createElement('label');
+                        optionLabel.htmlFor = optionId;
+                        optionLabel.textContent = option.optionText;
+                        optionLabel.classList.add('option-label');
+
+                        optionInput.onchange = function () { selectAnswer(qIndex, option.correct); };
+
+                        optionsEl.appendChild(optionInput);
+                        optionsEl.appendChild(optionLabel);
+                    });
+
+                    questionEl.appendChild(optionsEl);
+                    quizContainer.appendChild(questionEl);
+                });
+            }
+
+            function selectAnswer(qIndex, isCorrect) {
+                userAnswers[qIndex] = isCorrect;
+            }
+
+            function submitAnswers() {
+                const correctAnswers = userAnswers.filter(answer => answer === true).length;
+                const incorrectAnswers = userAnswers.length - correctAnswers;
+                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                document.getElementById('submitBtn').style.display = 'none';
+                document.getElementById('doneButton').style.display = 'block';
+            }
+
+            createQuiz();
+        </script>
+</body>
+
+</html>

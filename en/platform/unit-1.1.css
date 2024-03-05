@@ -56,3 +56,28 @@
     cursor: pointer;
     transition: background-color 0.2s;
 }
+
+
+.next-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #219ebc; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+
+.quiz-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8338ec; /* Turuncu arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}

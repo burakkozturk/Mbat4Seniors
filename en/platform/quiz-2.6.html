@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz || EN</title>
+
+    <link rel="stylesheet" href="../../css/home.css">
+
+    <style>
+        .all {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            /* Maksimum genişlik */
+            width: 100%;
+            /* Genişliği ekrana göre ayarla */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Hafif bir gölge ekle */
+            margin: 20px;
+            /* Üstten ve alttan boşluk ekle */
+            border-radius: 8px;
+            /* Köşeleri yuvarla */
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        .option-label {
+            display: block;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .option-input {
+            margin-right: 10px;
+        }
+
+        #submitBtn,
+        #doneButton {
+            display: block;
+            /* Butonları blok seviyesinde göster */
+            margin: 20px auto;
+            /* Otomatik marjın ile merkezde konumlandır */
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #008CBA;
+            color: white;
+        }
+
+        #doneButton {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="vertical-boxes">
+        <a href="../index.html">
+            <div class="image-box">
+                <img src="../../img/united-kingdom.png" alt="">
+            </div>
+        </a>
+        <a href="../tr/index.html">
+            <div class="image-box">
+                <img src="../../img/turkey.png" alt="">
+            </div>
+        </a>
+        <a href="../lt/index.html">
+            <div class="image-box">
+                <img src="../../img/lithuania.png" alt="">
+            </div>
+        </a>
+        <a href="../sp/index.html">
+            <div class="image-box">
+                <img src="../../img/spain.png" alt="">
+            </div>
+        </a>
+        <a href="../da/index.html">
+            <div class="image-box">
+                <img src="../../img/denmark.png" alt="">
+            </div>
+        </a>
+        <a href="../po/index.html">
+            <div class="image-box">
+                <img src="../../img/poland.png" alt="">
+            </div>
+        </a>
+        <a href="../gr/index.html">
+            <div class="image-box">
+                <img src="../../img/greece.png" alt="">
+            </div>
+        </a>
+    </div>
+
+
+    <hr style="opacity: 0.3;">
+
+    <div class="navigation-bar">
+        <img src="../../img/logo.png" alt="">
+        <ul>
+            <li>
+                <a href="../../index.html">Home</a>
+                <a href="../partnership.html">Partnership</a>
+                <a href="../objectives.html">Objectives</a>
+                <a href="/en/platform/courses.html">Platform</a>
+                <a href="../about.html">About MBAT</a>
+                <a href="../result.html">Results</a>
+                <a href="../../contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <div class="all">
+
+
+            <div class="container" id="quizContainer">
+                <h2 style="color: #4CAF50;">Self-evaluation questions</h2>
+            </div>
+            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+
+        </div>
+        <script>
+
+            const quizData = [
+            {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "What is the primary focus when applying the circular economy and eco-friendly approach in MBAT?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Emphasizing expensive art materials",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Promoting wasteful disposal practices",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Using sustainable and non-toxic materials for art-making",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Ignoring the environmental impact of art materials",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "How can clients be encouraged to reduce waste in MBAT, according to the information provided?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "By discarding materials after a single use",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "By avoiding the use of recycled paper",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "By reusing and repurposing art materials",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "By using only synthetic dyes in art projects",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Which approach involves transforming waste materials into new, useful products in MBAT?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "Mindful Consumption",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "Collaborative art-making",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "Environmentally conscious disposal",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "Upcycling",
+                        "questionId": 3,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "How can MBAT be tailored to meet the unique needs and abilities of seniors in terms of circular economy and eco-friendly principles?                ",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "By discouraging the use of digital tools",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "By promoting wasteful disposal practices",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "By incorporating nature-based activities",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "By avoiding collaboration on art projects",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "What is the importance of environmentally conscious disposal in MBAT?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "It supports proper disposal of hazardous waste",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "It encourages hoarding of art materials",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "It promotes the use of hazardous waste",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "It discourages any form of disposal",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+            ];
+
+
+            let userAnswers = new Array(quizData[0].questions.length).fill(null);
+
+            function createQuiz() {
+                const quizContainer = document.getElementById('quizContainer');
+                quizData[0].questions.forEach((question, qIndex) => {
+                    const questionEl = document.createElement('div');
+                    questionEl.classList.add('question');
+                    questionEl.innerHTML = `<h3>${qIndex + 1}. ${question.questionText}</h3>`;
+
+                    const optionsEl = document.createElement('div');
+                    optionsEl.classList.add('options');
+
+                    question.options.forEach((option, oIndex) => {
+                        const optionId = `question-${qIndex}-option-${oIndex}`;
+                        const optionInput = document.createElement('input');
+                        optionInput.type = 'radio';
+                        optionInput.id = optionId;
+                        optionInput.name = `question-${qIndex}`;
+                        optionInput.value = option.correct;
+                        optionInput.classList.add('option-input');
+
+                        const optionLabel = document.createElement('label');
+                        optionLabel.htmlFor = optionId;
+                        optionLabel.textContent = option.optionText;
+                        optionLabel.classList.add('option-label');
+
+                        optionInput.onchange = function () { selectAnswer(qIndex, option.correct); };
+
+                        optionsEl.appendChild(optionInput);
+                        optionsEl.appendChild(optionLabel);
+                    });
+
+                    questionEl.appendChild(optionsEl);
+                    quizContainer.appendChild(questionEl);
+                });
+            }
+
+            function selectAnswer(qIndex, isCorrect) {
+                userAnswers[qIndex] = isCorrect;
+            }
+
+            function submitAnswers() {
+                const correctAnswers = userAnswers.filter(answer => answer === true).length;
+                const incorrectAnswers = userAnswers.length - correctAnswers;
+                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                document.getElementById('submitBtn').style.display = 'none';
+                document.getElementById('doneButton').style.display = 'block';
+            }
+
+            createQuiz();
+        </script>
+</body>
+
+</html>

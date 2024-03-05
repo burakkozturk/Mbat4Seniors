@@ -1,0 +1,129 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Who is the pioneer of Focusing-Oriented Art Therapy and Focusing-Oriented Expressive Arts Therapy, according to the text?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Laury Rappaport",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "A licensed mental health counselor",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "The Focusing Institute                        ",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "The American Art Therapy Association",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "What does MBAT stand for in the context of the text?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Mindfulness-Behavior Adjustment Therapy",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Mindfulness-Board Academy Treatment",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Mindfulness-Behavioral Art Techniques",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Mindfulness-Based Art Therapy",
+                        "questionId": 2,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "According to the text, how does mindfulness-based art therapy (MBAT) benefit individuals?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "By increasing art skills",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "By promoting health, wellness, and adaptive responses to stress",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "By providing psychological analysis of art creations                        ",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "By focusing on physical strength and control                        ",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "When was the concept of mindfulness-based art therapy (MBAT) first introduced, and who introduced it?                ",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "1940s, Laury Rappaport",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "2009s, Laury Rappaport",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "1990s, A licensed mental health counselor",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "2010, The Focusing Institute",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

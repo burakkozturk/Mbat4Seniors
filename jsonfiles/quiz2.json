@@ -1,0 +1,249 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "What is the primary goal of mindfulness-based art therapy training for the elderly, as mentioned in the text?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "Enhancing physical health",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "Developing artistic skills",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "Improving emotional and mental well-being",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "Exploring historical art techniques",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "Which aspect of elderly individuals does the training emphasise, highlighting the importance of respecting their authenticity and life experiences?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "Physical abilities",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "Cognitive skills",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Emotional and mental well-being",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "Social interactions",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "What is the primary focus of the training's structure, utilizing practical examples and case studies?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "Theoretical knowledge",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "Ethical principles",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "Interactive learning",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "Clinical Internship",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "What are some of the topics covered in the educational programs related to mindfulness-based art therapy for the elderly?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Planning, implementation, and evaluation",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Ecology and circular economy",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Physics and chemistry",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Social and political issues",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "According to the text, which art therapy technique is considered the most basic?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Collage",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Music",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Drama",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Painting",
+                        "questionId": 5,
+                        "correct": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "How is collage therapy described in the text?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "A method using only digital materials",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "A technique for painting and drawing",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "The use of everyday objects in art therapy",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "A method exclusively for trauma patients",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "What is the purpose of using clay in art therapy, as described in the text?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "To meet basic needs for kitchen utensils                        ",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "To create complex artworks                        ",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "To develop hand skills and provide spiritual relaxation",
+                        "questionId": 5,
+                        "correct": true
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "To replace traditional therapy methods                        ",
+                        "questionId": 5,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "According to the text, what is discussed in the section on 'Research and ethics' related to art therapy practices?",
+                "options": [
+                    {
+                        "id": 17,
+                        "optionText": "Historical background of art therapy",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 18,
+                        "optionText": "Ethical values and principles",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 19,
+                        "optionText": "Marketing strategies for art therapists",
+                        "questionId": 5,
+                        "correct": false
+                    },
+                    {
+                        "id": 20,
+                        "optionText": "Art therapy techniques for trauma relief",
+                        "questionId": 5,
+                        "correct": true
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]

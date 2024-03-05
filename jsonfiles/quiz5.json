@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "title": "Self-evaluation questions",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "What is the primary advantage of combining artistic expression with mindfulness practice in MBAT?",
+                "options": [
+                    {
+                        "id": 1,
+                        "optionText": "It makes mindfulness meditation more challenging",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 2,
+                        "optionText": "It requires participants to focus solely on mindfulness",
+                        "questionId": 1,
+                        "correct": false
+                    },
+                    {
+                        "id": 3,
+                        "optionText": "It makes mindfulness meditation more fun and less challenging",
+                        "questionId": 1,
+                        "correct": true
+                    },
+                    {
+                        "id": 4,
+                        "optionText": "It limits creative expression to specific forms",
+                        "questionId": 1,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "How does MBAT contribute to stress reduction and relaxation in seniors, according to the information provided?",
+                "options": [
+                    {
+                        "id": 5,
+                        "optionText": "By discouraging self-expression",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 6,
+                        "optionText": "By promoting a lack of interest in the arts",
+                        "questionId": 2,
+                        "correct": false
+                    },
+                    {
+                        "id": 7,
+                        "optionText": "Through various methods and art-related activities",
+                        "questionId": 2,
+                        "correct": true
+                    },
+                    {
+                        "id": 8,
+                        "optionText": "By limiting creative expression to painting and drawing only",
+                        "questionId": 2,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "What is mentioned as a potential drawback of MBAT in the text?",
+                "options": [
+                    {
+                        "id": 9,
+                        "optionText": "It is helpful for everyone, regardless of their comfort level",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 10,
+                        "optionText": "It may not be suitable for seniors with a general lack of interest in the arts",
+                        "questionId": 3,
+                        "correct": true
+                    },
+                    {
+                        "id": 11,
+                        "optionText": "It does not require access to good quality resources",
+                        "questionId": 3,
+                        "correct": false
+                    },
+                    {
+                        "id": 12,
+                        "optionText": "It is easily implemented in various contexts",
+                        "questionId": 3,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "In which health conditions is MBAT mentioned as being helpful, specifically for seniors?                ",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Physical health conditions only",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Mental health conditions only",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Both mental and physical health conditions",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "Addiction-related disorders only",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "According to the text, why might MBAT be challenging to implement in certain contexts, such as schools and senior facilities?",
+                "options": [
+                    {
+                        "id": 13,
+                        "optionText": "Lack of interest in mindfulness meditation",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 14,
+                        "optionText": "Lack of qualified MBAT practitioners",
+                        "questionId": 4,
+                        "correct": false
+                    },
+                    {
+                        "id": 15,
+                        "optionText": "Low creativity among participants",
+                        "questionId": 4,
+                        "correct": true
+                    },
+                    {
+                        "id": 16,
+                        "optionText": "High cost of resources and environments",
+                        "questionId": 4,
+                        "correct": false
+                    }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+]
+
+
+
+
+
