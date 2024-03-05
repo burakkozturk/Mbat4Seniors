@@ -142,135 +142,56 @@
         </div>
         <script>
 
-            const quizData = [
-                {
-                    "id": 1,
-                    "title": "Savęs vertinimo klausimai",
-                    "questions": [
-                        {
-                            "id": 1,
-                            "questionText": "Pagal tekstą, kas pristatė Mindfulness-Based Art Therapy (MBAT) koncepciją ir kurį tai įvyko?",
-                            "options": [
-                                {
-                                    "id": 1,
-                                    "optionText": "Jon Kabat-Zinn 1979 m.",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 2,
-                                    "optionText": "Laury Rappaport 2009 m.",
-                                    "questionId": 1,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 3,
-                                    "optionText": "Streso mažinimo klinika 1940-aisiais m.",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 4,
-                                    "optionText": "Focusing Institute 2014 m.",
-                                    "questionId": 1,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "questionText": "Koks pagrindinis MBAT privalumas, kaip paminėta tekste?",
-                            "options": [
-                                {
-                                    "id": 5,
-                                    "optionText": "Reikalingos terapinės pokalbių sesijos",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 6,
-                                    "optionText": "Gali būti praktikuojama tik terapiniame aplinkoje",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 7,
-                                    "optionText": "Gali būti praktikuojama nepriklausomai namuose",
-                                    "questionId": 2,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 8,
-                                    "optionText": "Yra ekskluzviai sutelkta į baigtą meninį produktą",
-                                    "questionId": 2,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "questionText": "Kuri gerai žinoma meno terapijos kryptis tekste minima kaip naudojama MBAT požiūryje?",
-                            "options": [
-                                {
-                                    "id": 9,
-                                    "optionText": "Decoupage terapija",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 10,
-                                    "optionText": "Mandala piešimo terapija",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 11,
-                                    "optionText": "Dramos terapija",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 12,
-                                    "optionText": "Muzikos terapija",
-                                    "questionId": 3,
-                                    "correct": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "questionText": "Kaip, pagal pateiktą informaciją, MBAT prisideda prie senyvo amžiaus žmonių gyvenimo kokybės?",
-                            "options": [
-                                {
-                                    "id": 13,
-                                    "optionText": "Sutelkiant dėmesį į baigtą meninį produktą",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 14,
-                                    "optionText": "Pabrėžiant terapines pokalbių sesijas",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 15,
-                                    "optionText": "Suteikiant palengvėjimą nuo rūpesčių",
-                                    "questionId": 4,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 16,
-                                    "optionText": "Neįtraukiant kūrybinių procesų",
-                                    "questionId": 4,
-                                    "correct": false
-                                }
-                            ]
-                        }
-                    ],
-                    "unitId": 4
-                }
-            ];
+const quizData = [
+    {
+        "id": 1,
+        "title": "Preguntas de Autoevaluación",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Según el texto, ¿quién presentó el concepto de Terapia de Arte Basada en la Conciencia (MBAT) y cuándo ocurrió?",
+                "options": [
+                    { "id": 1, "optionText": "Jon Kabat-Zinn en 1979", "questionId": 1, "correct": false },
+                    { "id": 2, "optionText": "Laury Rappaport en 2009", "questionId": 1, "correct": true },
+                    { "id": 3, "optionText": "La Clínica para Reducir el Estrés en la década de 1940", "questionId": 1, "correct": false },
+                    { "id": 4, "optionText": "El Instituto de Focusing en 2014", "questionId": 1, "correct": false }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "¿Cuál es la principal ventaja de MBAT según lo mencionado en el texto?",
+                "options": [
+                    { "id": 5, "optionText": "Requiere sesiones terapéuticas de conversación", "questionId": 2, "correct": false },
+                    { "id": 6, "optionText": "Solo se puede practicar en un entorno terapéutico", "questionId": 2, "correct": false },
+                    { "id": 7, "optionText": "Puede practicarse independientemente en casa", "questionId": 2, "correct": true },
+                    { "id": 8, "optionText": "Se enfoca exclusivamente en el producto artístico terminado", "questionId": 2, "correct": false }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "¿Qué dirección de terapia artística bien conocida se menciona como utilizada en la perspectiva de MBAT en el texto?",
+                "options": [
+                    { "id": 9, "optionText": "Terapia de Decoupage", "questionId": 3, "correct": false },
+                    { "id": 10, "optionText": "Terapia de Dibujo de Mandala", "questionId": 3, "correct": false },
+                    { "id": 11, "optionText": "Terapia de Drama", "questionId": 3, "correct": false },
+                    { "id": 12, "optionText": "Terapia de Música", "questionId": 3, "correct": true }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "¿Cómo contribuye MBAT a la calidad de vida de las personas mayores según la información proporcionada?",
+                "options": [
+                    { "id": 13, "optionText": "Centrándose en el producto artístico terminado", "questionId": 4, "correct": false },
+                    { "id": 14, "optionText": "Enfatizando las sesiones de conversación terapéutica", "questionId": 4, "correct": false },
+                    { "id": 15, "optionText": "Proporcionando alivio del estrés", "questionId": 4, "correct": true },
+                    { "id": 16, "optionText": "Sin incluir procesos creativos", "questionId": 4, "correct": false }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+];
+
 
 
 

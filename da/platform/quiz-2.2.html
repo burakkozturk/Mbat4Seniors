@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || DA</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -119,13 +112,13 @@
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
+                <a href="../../index.html">Hjem</a>
+                <a href="../partnership.html">Partnerskab</a>
+                <a href="../objectives.html">Mål</a>
                 <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../about.html">Om MBAT</a>
+                <a href="../result.html">Resultater</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -134,10 +127,10 @@
 
 
             <div class="container" id="quizContainer">
-                <h2 style="color: #A12866;">Self-evaluation questions</h2>
+                <h2 style="color: #A12866;">Selvvurderingsspørgsmål</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+            <button id="submitBtn" onclick="submitAnswers()">Indsend</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Færdig</button>
 
         </div>
         <script>
@@ -145,33 +138,33 @@
             const quizData = [
                 {
                     "id": 1,
-                    "title": "Savęs vertinimo klausimai",
+                    "title": "Selvvurderingsspørgsmål",
                     "questions": [
                         {
                             "id": 1,
-                            "questionText": "Koks yra pagrindinis vyresnio amžiaus žmonių meninės terapijos, grindžiamos dėmesingumo ugdymu, mokymo tikslas, kaip nurodyta tekste?",
+                            "questionText": "Hvad er det primære mål med ældre menneskers kunstterapi, der er baseret på opmærksomhedstræning, som angivet i teksten?",
                             "options": [
                                 {
                                     "id": 1,
-                                    "optionText": "Fizinės sveikatos gerinimas",
+                                    "optionText": "Forbedring af fysisk sundhed",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 2,
-                                    "optionText": "Meninių įgūdžių plėtojimas",
+                                    "optionText": "Udvikling af kunstneriske færdigheder",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 3,
-                                    "optionText": "Emocinės ir psichinės gerovės gerinimas",
+                                    "optionText": "Forbedring af følelsesmæssig og psykisk velvære",
                                     "questionId": 1,
                                     "correct": true
                                 },
                                 {
                                     "id": 4,
-                                    "optionText": "Istorinių meno technikų tyrinėjimas",
+                                    "optionText": "Undersøgelse af historiske kunstteknikker",
                                     "questionId": 1,
                                     "correct": false
                                 }
@@ -179,29 +172,29 @@
                         },
                         {
                             "id": 2,
-                            "questionText": "Kuris vyresnio amžiaus žmonių aspektas yra pabrėžiamas mokymuose, išryškinant jų autentiškumo ir gyvenimo patirties svarbą?",
+                            "questionText": "Hvilken aspekt af ældre menneskers liv fremhæves i undervisningen ved at understrege vigtigheden af deres autenticitet og livserfaring?",
                             "options": [
                                 {
                                     "id": 5,
-                                    "optionText": "Fiziniai gebėjimai",
+                                    "optionText": "Fysiske evner",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 6,
-                                    "optionText": "Kognityviniai įgūdžiai",
+                                    "optionText": "Kognitive færdigheder",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 7,
-                                    "optionText": "Emocinė ir psichinė gerovė",
+                                    "optionText": "Emotionel og mental trivsel",
                                     "questionId": 2,
                                     "correct": true
                                 },
                                 {
                                     "id": 8,
-                                    "optionText": "Socialinės sąveikos",
+                                    "optionText": "Sociale interaktioner",
                                     "questionId": 2,
                                     "correct": false
                                 }
@@ -209,29 +202,29 @@
                         },
                         {
                             "id": 3,
-                            "questionText": "Kas yra pagrindinis mokymų struktūros dėmesys, naudojant praktinius pavyzdžius ir atvejo studijas?",
+                            "questionText": "Hvad er det primære fokus i undervisningsstrukturen ved hjælp af praktiske eksempler og case-studier?",
                             "options": [
                                 {
                                     "id": 9,
-                                    "optionText": "Teorinės žinios",
+                                    "optionText": "Teoretisk viden",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 10,
-                                    "optionText": "Etikos principai",
+                                    "optionText": "Etiske principper",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 11,
-                                    "optionText": "Interaktyvus mokymasis",
+                                    "optionText": "Interaktiv læring",
                                     "questionId": 3,
                                     "correct": true
                                 },
                                 {
                                     "id": 12,
-                                    "optionText": "Klinikinė praktika",
+                                    "optionText": "Klinisk praksis",
                                     "questionId": 3,
                                     "correct": false
                                 }
@@ -239,29 +232,29 @@
                         },
                         {
                             "id": 4,
-                            "questionText": "Kokios temos nagrinėjamos švietimo programose, susijusiose su dėmesingumo pagrindu vykdoma menine terapija vyresnio amžiaus žmonėms?",
+                            "questionText": "Hvilke emner behandles i uddannelsesprogrammerne relateret til kunstterapi baseret på opmærksomhed hos ældre?",
                             "options": [
                                 {
                                     "id": 13,
-                                    "optionText": "Planavimas, įgyvendinimas ir vertinimas",
+                                    "optionText": "Planlægning, implementering og evaluering",
                                     "questionId": 4,
                                     "correct": true
                                 },
                                 {
                                     "id": 14,
-                                    "optionText": "Ekologija ir cirkulinė ekonomika",
+                                    "optionText": "Økologi og cirkulær økonomi",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 15,
-                                    "optionText": "Fizika ir chemija",
+                                    "optionText": "Fysik og kemi",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 16,
-                                    "optionText": "Socialinės ir politinės problemos",
+                                    "optionText": "Sociale og politiske problemer",
                                     "questionId": 4,
                                     "correct": false
                                 }
@@ -269,17 +262,17 @@
                         },
                         {
                             "id": 5,
-                            "questionText": "Pagal tekstą, kuri meninės terapijos technika laikoma pagrindine?",
+                            "questionText": "Ifølge teksten, hvilken kunstterapiteknik betragtes som primær?",
                             "options": [
                                 {
                                     "id": 17,
-                                    "optionText": "Koliažas",
+                                    "optionText": "Kollage",
                                     "questionId": 5,
                                     "correct": false
                                 },
                                 {
                                     "id": 18,
-                                    "optionText": "Muzika",
+                                    "optionText": "Musik",
                                     "questionId": 5,
                                     "correct": false
                                 },
@@ -291,98 +284,98 @@
                                 },
                                 {
                                     "id": 20,
-                                    "optionText": "Tapyba",
+                                    "optionText": "Maling",
                                     "questionId": 5,
                                     "correct": true
                                 }
                             ]
                         },
                         {
-                            "id": 5,
-                            "questionText": "Kaip tekste apibūdinama koliažo terapija?",
+                            "id": 6,
+                            "questionText": "Hvordan beskrives kollage terapi i teksten?",
                             "options": [
                                 {
-                                    "id": 17,
-                                    "optionText": "Metodas, naudojantis tik skaitmenines medžiagas",
-                                    "questionId": 5,
+                                    "id": 21,
+                                    "optionText": "En metode, der kun bruger digitale materialer",
+                                    "questionId": 6,
                                     "correct": false
                                 },
                                 {
-                                    "id": 18,
-                                    "optionText": "Technika tapybai ir piešimui",
-                                    "questionId": 5,
+                                    "id": 22,
+                                    "optionText": "En teknik til maling og tegning",
+                                    "questionId": 6,
                                     "correct": false
                                 },
                                 {
-                                    "id": 19,
-                                    "optionText": "Kasdienių objektų naudojimas meno terapijoje",
-                                    "questionId": 5,
+                                    "id": 23,
+                                    "optionText": "Brugen af dagligdags genstande i kunstterapi",
+                                    "questionId": 6,
                                     "correct": true
                                 },
                                 {
-                                    "id": 20,
-                                    "optionText": "Metodas, skirtas tik traumų pacientams",
-                                    "questionId": 5,
+                                    "id": 24,
+                                    "optionText": "En metode kun for traumepatienter",
+                                    "questionId": 6,
                                     "correct": false
                                 }
                             ]
                         },
                         {
-                            "id": 5,
-                            "questionText": "Koks yra molio naudojimo meno terapijoje tikslas, kaip aprašyta tekste?",
+                            "id": 7,
+                            "questionText": "Hvad er formålet med at bruge ler i kunstterapi ifølge teksten?",
                             "options": [
                                 {
-                                    "id": 17,
-                                    "optionText": "Pagrindinių virtuvės įrankių poreikių tenkinimas",
-                                    "questionId": 5,
+                                    "id": 25,
+                                    "optionText": "At opfylde grundlæggende behov for køkkenredskaber",
+                                    "questionId": 7,
                                     "correct": false
                                 },
                                 {
-                                    "id": 18,
-                                    "optionText": "Sudėtingų meno kūrinių kūrimas",
-                                    "questionId": 5,
+                                    "id": 26,
+                                    "optionText": "At skabe komplekse kunstværker",
+                                    "questionId": 7,
                                     "correct": false
                                 },
                                 {
-                                    "id": 19,
-                                    "optionText": "Rankų įgūdžių lavinimas ir dvasinio atsipalaidavimo teikimas",
-                                    "questionId": 5,
+                                    "id": 27,
+                                    "optionText": "At udvikle håndfærdigheder og tilbyde åndelig afslapning",
+                                    "questionId": 7,
                                     "correct": true
                                 },
                                 {
-                                    "id": 20,
-                                    "optionText": "Tradicinių terapijos metodų pakeitimas",
-                                    "questionId": 5,
+                                    "id": 28,
+                                    "optionText": "At erstatte traditionelle terapimetoder",
+                                    "questionId": 7,
                                     "correct": false
                                 }
                             ]
                         },
                         {
-                            "id": 5,
-                            "questionText": "Pagal tekstą, kas aptariama skyriuje 'Tyrimai ir etika', susijusiame su meno terapijos praktikomis?",
+                            "id": 8,
+                            "questionText": "Ifølge teksten, hvad drøftes i afsnittet 'Forskning og etik', der vedrører kunstterapipraksis?",
                             "options": [
                                 {
-                                    "id": 17,
-                                    "optionText": "Meno terapijos istorinis fonas",
-                                    "questionId": 5,
+                                    "id": 29,
+                                    "optionText": "Kunstterapiens historiske baggrund",
+                                    "questionId": 8,
                                     "correct": false
                                 },
                                 {
-                                    "id": 18,
-                                    "optionText": "Etinės vertybės ir principai",
-                                    "questionId": 5,
+                                    "id": 30,
+                                    "optionText": "Etiske værdier og principper",
+                                    "questionId": 8,
                                     "correct": false
                                 },
                                 {
-                                    "id": 19,
-                                    "optionText": "Meno terapeutų rinkodaros strategijos",
-                                    "questionId": 5,
+                                    "id": 31,
+                                    "optionText": "Kunstterapeuters markedsføringsstrategier",
+                                    "questionId": 8,
                                     "correct": false
                                 },
                                 {
-                                    "id": 20,
-                                    "optionText": "Meno terapijos technikos traumų palengvinimui",
-                                    "questionId": 5,
+                                    "id": 32,
+                                    "optionText": "Kunstterapiteknikker til lindring af traumer",
+                                    "questionId": 8,
                                     "correct": true
                                 }
                             ]
@@ -438,7 +431,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Korrekte svar: ${correctAnswers}\nForkerte svar: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }

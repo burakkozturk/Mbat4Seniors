@@ -142,135 +142,56 @@
         </div>
         <script>
 
-            const quizData = [
-                {
-                    "id": 1,
-                    "title": "Savęs įvertinimo klausimai",
-                    "questions": [
-                        {
-                            "id": 1,
-                            "questionText": "Pagal tekstą, kas yra Orientuotos į Dėmesingumą Meno Terapijos ir Orientuotos į Dėmesingumą Išraiškos Meno Terapijos pradininkas?",
-                            "options": [
-                                {
-                                    "id": 1,
-                                    "optionText": "Laury Rappaport",
-                                    "questionId": 1,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 2,
-                                    "optionText": "Licencijuotas psichikos sveikatos konsultantas",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 3,
-                                    "optionText": "Dėmesio Institutas",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 4,
-                                    "optionText": "Amerikos Meno Terapijos Asociacija",
-                                    "questionId": 1,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "questionText": "Ką reiškia MBAT teksto kontekste?",
-                            "options": [
-                                {
-                                    "id": 5,
-                                    "optionText": "Dėmesingumo-Elgesio Koregavimo Terapija",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 6,
-                                    "optionText": "Dėmesingumo-Valdybos Akademijos Gydymas",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 7,
-                                    "optionText": "Dėmesingumo-Elgesio Meno Technikos",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 8,
-                                    "optionText": "Dėmesingumo Pagrįsta Meno Terapija",
-                                    "questionId": 2,
-                                    "correct": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "questionText": "Pagal tekstą, kaip dėmesingumo pagrįsta meno terapija (MBAT) naudinga asmenims?",
-                            "options": [
-                                {
-                                    "id": 9,
-                                    "optionText": "Didinant meno įgūdžius",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 10,
-                                    "optionText": "Skatinant sveikatą, gerovę ir prisitaikančius atsakus į stresą",
-                                    "questionId": 3,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 11,
-                                    "optionText": "Suteikiant psichologinę analizę meno kūriniams",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 12,
-                                    "optionText": "Keskendama į fizinę jėgą ir kontrolę",
-                                    "questionId": 3,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "questionText": "Kada buvo pristatyta dėmesingumo pagrįsta meno terapija (MBAT) ir kas ją pristatė?",
-                            "options": [
-                                {
-                                    "id": 13,
-                                    "optionText": "1940-aisiais, Laury Rappaport",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 14,
-                                    "optionText": "2009-aisiais, Laury Rappaport",
-                                    "questionId": 4,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 15,
-                                    "optionText": "1990-aisiais, Licencijuotas psichikos sveikatos konsultantas",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 16,
-                                    "optionText": "2010, Dėmesio Institutas",
-                                    "questionId": 4,
-                                    "correct": false
-                                }
-                            ]
-                        }
-                    ],
-                    "unitId": 4
-                }
-            ];
+const quizData = [
+    {
+        "id": 1,
+        "title": "Preguntas de Autoevaluación",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "Según el texto, ¿quién es el fundador de la Terapia de Arte Centrada en la Atención Plena y la Terapia de Arte Expresivo Centrada en la Atención Plena?",
+                "options": [
+                    { "id": 1, "optionText": "Laury Rappaport", "questionId": 1, "correct": true },
+                    { "id": 2, "optionText": "Consejero de Salud Mental Licenciado", "questionId": 1, "correct": false },
+                    { "id": 3, "optionText": "Instituto de Atención", "questionId": 1, "correct": false },
+                    { "id": 4, "optionText": "Asociación Americana de Terapia de Arte", "questionId": 1, "correct": false }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "¿Qué significa MBAT en el contexto del texto?",
+                "options": [
+                    { "id": 5, "optionText": "Terapia de Modificación de Conducta Centrada en la Atención", "questionId": 2, "correct": false },
+                    { "id": 6, "optionText": "Academia de Gestión Centrada en la Atención", "questionId": 2, "correct": false },
+                    { "id": 7, "optionText": "Técnicas de Arte Centradas en la Atención", "questionId": 2, "correct": false },
+                    { "id": 8, "optionText": "Terapia de Arte Basada en la Atención Plena", "questionId": 2, "correct": true }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "Según el texto, ¿cómo beneficia la Terapia de Arte Basada en la Atención Plena (MBAT) a las personas?",
+                "options": [
+                    { "id": 9, "optionText": "Mejorando habilidades artísticas", "questionId": 3, "correct": false },
+                    { "id": 10, "optionText": "Promoviendo la salud, el bienestar y las respuestas adaptables al estrés", "questionId": 3, "correct": true },
+                    { "id": 11, "optionText": "Proporcionando un análisis psicológico de las obras de arte", "questionId": 3, "correct": false },
+                    { "id": 12, "optionText": "Centrándose en la fuerza física y el control", "questionId": 3, "correct": false }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "¿Cuándo fue presentada la Terapia de Arte Basada en la Atención Plena (MBAT) y quién la presentó?",
+                "options": [
+                    { "id": 13, "optionText": "En la década de 1940, por Laury Rappaport", "questionId": 4, "correct": false },
+                    { "id": 14, "optionText": "En 2009, por Laury Rappaport", "questionId": 4, "correct": true },
+                    { "id": 15, "optionText": "En la década de 1990, por un Consejero de Salud Mental Licenciado", "questionId": 4, "correct": false },
+                    { "id": 16, "optionText": "En 2010, por el Instituto de Atención", "questionId": 4, "correct": false }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+];
+
 
 
 

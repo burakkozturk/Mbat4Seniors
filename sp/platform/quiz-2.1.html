@@ -142,65 +142,66 @@
         </div>
         <script>
 
-            const quizData = [
-                {
-                    "id": 1,
-                    "title": "Savęs įvertinimo klausimai",
-                    "questions": [
-                        {
-                            "id": 1,
-                            "questionText": "Kokiu tyrimo metodu buvo atliktas projektui reikalingų mokymo medžiagų poreikio analizė?",
-                            "options": [
-                                { "id": 1, "optionText": "Apklausos", "questionId": 1, "correct": false },
-                                { "id": 2, "optionText": "Interviu", "questionId": 1, "correct": true },
-                                { "id": 3, "optionText": "Teminė analizė", "questionId": 1, "correct": false },
-                                { "id": 4, "optionText": "Atvejo studijos", "questionId": 1, "correct": false }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "questionText": "Koks buvo pagrindinis 2022 m. vasarą pradėto tyrimo tikslas?",
-                            "options": [
-                                { "id": 5, "optionText": "Senjorų fizinės sveikatos įvertinimas", "questionId": 2, "correct": false },
-                                { "id": 6, "optionText": "Dažniausiai pasitaikančių psichikos sveikatos problemų tarp senjorų COVID-19 pandemijos metu nustatymas", "questionId": 2, "correct": true },
-                                { "id": 7, "optionText": "Esamų mobiliojo ryšio programų efektyvumo įvertinimas", "questionId": 2, "correct": false },
-                                { "id": 8, "optionText": "Senjorų ir suaugusiųjų švietėjų IT įgūdžių analizė", "questionId": 2, "correct": false }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "questionText": "Kiek specialistų buvo interviuoti iš šešių projekto partnerių šalių?",
-                            "options": [
-                                { "id": 9, "optionText": "22", "questionId": 3, "correct": false },
-                                { "id": 10, "optionText": "33", "questionId": 3, "correct": true },
-                                { "id": 11, "optionText": "45", "questionId": 3, "correct": false },
-                                { "id": 12, "optionText": "55", "questionId": 3, "correct": false }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "questionText": "Kokiu tyrimo metodu buvo analizuoti surinkti duomenys?",
-                            "options": [
-                                { "id": 13, "optionText": "Statistinė analizė", "questionId": 4, "correct": false },
-                                { "id": 14, "optionText": "Teminė analizė", "questionId": 4, "correct": true },
-                                { "id": 15, "optionText": "Palyginamoji analizė", "questionId": 4, "correct": false },
-                                { "id": 16, "optionText": "Eksperimentinė analizė", "questionId": 4, "correct": false }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "questionText": "Remiantis tyrimu, kokios pagrindinės temos išryškėjo iš teminės rezultatų analizės?",
-                            "options": [
-                                { "id": 17, "optionText": "Ekonomikos problemos, politiniai iššūkiai, socialinės galimybės", "questionId": 5, "correct": false },
-                                { "id": 18, "optionText": "Psichologinės problemos, priežastys, susidorojimo strategijos, iššūkiai ir programėlių specifikacijos", "questionId": 5, "correct": true },
-                                { "id": 19, "optionText": "Kultūriniai skirtumai, kalbos barjerai, technologinė pažanga", "questionId": 5, "correct": false },
-                                { "id": 20, "optionText": "Fizinė sveikata, emocinė gerovė, aplinkos veiksniai", "questionId": 5, "correct": false }
-                            ]
-                        }
-                    ],
-                    "unitId": 4
-                }
-            ];
+const quizData = [
+    {
+        "id": 1,
+        "title": "Preguntas de Autoevaluación",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "¿Qué método de investigación se utilizó para realizar el análisis de las necesidades de material de aprendizaje necesario para el proyecto?",
+                "options": [
+                    { "id": 1, "optionText": "Encuestas", "questionId": 1, "correct": false },
+                    { "id": 2, "optionText": "Entrevistas", "questionId": 1, "correct": true },
+                    { "id": 3, "optionText": "Análisis de escritura", "questionId": 1, "correct": false },
+                    { "id": 4, "optionText": "Estudios de caso", "questionId": 1, "correct": false }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "¿Cuál fue el principal objetivo de la investigación iniciada en verano de 2022?",
+                "options": [
+                    { "id": 5, "optionText": "Evaluación de la salud física de las personas mayores", "questionId": 2, "correct": false },
+                    { "id": 6, "optionText": "Identificación de los problemas de salud mental más comunes entre las personas mayores durante la pandemia de COVID-19", "questionId": 2, "correct": true },
+                    { "id": 7, "optionText": "Evaluación de la efectividad de las aplicaciones de comunicación móvil existentes", "questionId": 2, "correct": false },
+                    { "id": 8, "optionText": "Análisis de las habilidades informáticas de las personas mayores y los educadores de adultos", "questionId": 2, "correct": false }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "¿Cuántos especialistas fueron entrevistados de los seis países socios del proyecto?",
+                "options": [
+                    { "id": 9, "optionText": "22", "questionId": 3, "correct": false },
+                    { "id": 10, "optionText": "33", "questionId": 3, "correct": true },
+                    { "id": 11, "optionText": "45", "questionId": 3, "correct": false },
+                    { "id": 12, "optionText": "55", "questionId": 3, "correct": false }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "¿Qué método de investigación se utilizó para analizar los datos recopilados?",
+                "options": [
+                    { "id": 13, "optionText": "Análisis estadístico", "questionId": 4, "correct": false },
+                    { "id": 14, "optionText": "Análisis temático", "questionId": 4, "correct": true },
+                    { "id": 15, "optionText": "Análisis comparativo", "questionId": 4, "correct": false },
+                    { "id": 16, "optionText": "Análisis experimental", "questionId": 4, "correct": false }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Según la investigación, ¿cuáles fueron los principales temas destacados del análisis temático?",
+                "options": [
+                    { "id": 17, "optionText": "Problemas económicos, desafíos políticos, oportunidades sociales", "questionId": 5, "correct": false },
+                    { "id": 18, "optionText": "Problemas psicológicos, causas, estrategias de afrontamiento, desafíos y especificaciones de aplicaciones", "questionId": 5, "correct": true },
+                    { "id": 19, "optionText": "Diferencias culturales, barreras lingüísticas, progreso tecnológico", "questionId": 5, "correct": false },
+                    { "id": 20, "optionText": "Salud física, bienestar emocional, factores ambientales", "questionId": 5, "correct": false }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+];
+
 
 
 

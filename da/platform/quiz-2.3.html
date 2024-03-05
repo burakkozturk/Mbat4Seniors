@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || DA</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -72,7 +65,6 @@
 </head>
 
 <body>
-
 
     <div class="vertical-boxes">
         <a href="../../index.html">
@@ -112,44 +104,41 @@
         </a>
     </div>
 
-
     <hr style="opacity: 0.3;">
 
     <div class="navigation-bar">
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
+                <a href="../../index.html">Hjem</a>
+                <a href="../partnership.html">Partnerskab</a>
+                <a href="../objectives.html">Formål</a>
                 <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../about.html">Om MBAT</a>
+                <a href="../result.html">Resultater</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
+
     <div>
         <div class="all">
-
-
             <div class="container" id="quizContainer">
-                <h2 style="color: #008CBA;">Self-evaluation questions</h2>
+                <h2 style="color: #008CBA;">Selvvurderingsspørgsmål</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
-
+            <button id="submitBtn" onclick="submitAnswers()">Indsend</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Færdig</button>
         </div>
         <script>
 
             const quizData = [
                 {
                     "id": 1,
-                    "title": "Savęs įvertinimo klausimai",
+                    "title": "Selvvurderingsspørgsmål",
                     "questions": [
                         {
                             "id": 1,
-                            "questionText": "Pagal tekstą, kas yra Orientuotos į Dėmesingumą Meno Terapijos ir Orientuotos į Dėmesingumą Išraiškos Meno Terapijos pradininkas?",
+                            "questionText": "Ifølge teksten, hvem er grundlæggeren af ​​Opmærksomhed baseret Kunstterapi og Opmærksomhed Expression Arts Therapy?",
                             "options": [
                                 {
                                     "id": 1,
@@ -159,19 +148,19 @@
                                 },
                                 {
                                     "id": 2,
-                                    "optionText": "Licencijuotas psichikos sveikatos konsultantas",
+                                    "optionText": "Autoriseret psykoterapeut",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 3,
-                                    "optionText": "Dėmesio Institutas",
+                                    "optionText": "Attention Institute",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 4,
-                                    "optionText": "Amerikos Meno Terapijos Asociacija",
+                                    "optionText": "American Art Therapy Association",
                                     "questionId": 1,
                                     "correct": false
                                 }
@@ -179,29 +168,29 @@
                         },
                         {
                             "id": 2,
-                            "questionText": "Ką reiškia MBAT teksto kontekste?",
+                            "questionText": "Hvad betyder MBAT i teksten?",
                             "options": [
                                 {
                                     "id": 5,
-                                    "optionText": "Dėmesingumo-Elgesio Koregavimo Terapija",
+                                    "optionText": "Attention-Behavior Adjustment Therapy",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 6,
-                                    "optionText": "Dėmesingumo-Valdybos Akademijos Gydymas",
+                                    "optionText": "Attention-Management Academy Treatment",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 7,
-                                    "optionText": "Dėmesingumo-Elgesio Meno Technikos",
+                                    "optionText": "Attention-Behavior Art Techniques",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 8,
-                                    "optionText": "Dėmesingumo Pagrįsta Meno Terapija",
+                                    "optionText": "Attention-Based Art Therapy",
                                     "questionId": 2,
                                     "correct": true
                                 }
@@ -209,29 +198,29 @@
                         },
                         {
                             "id": 3,
-                            "questionText": "Pagal tekstą, kaip dėmesingumo pagrįsta meno terapija (MBAT) naudinga asmenims?",
+                            "questionText": "Ifølge teksten, hvordan gavner Opmærksomhedsbaseret kunstterapi (MBAT) enkeltpersoner?",
                             "options": [
                                 {
                                     "id": 9,
-                                    "optionText": "Didinant meno įgūdžius",
+                                    "optionText": "Ved at forbedre kunstneriske færdigheder",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 10,
-                                    "optionText": "Skatinant sveikatą, gerovę ir prisitaikančius atsakus į stresą",
+                                    "optionText": "Ved at fremme sundhed, trivsel og adaptive stressreaktioner",
                                     "questionId": 3,
                                     "correct": true
                                 },
                                 {
                                     "id": 11,
-                                    "optionText": "Suteikiant psichologinę analizę meno kūriniams",
+                                    "optionText": "Ved at tilbyde psykologisk analyse af kunstværker",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 12,
-                                    "optionText": "Keskendama į fizinę jėgą ir kontrolę",
+                                    "optionText": "Ved at fokusere på fysisk styrke og kontrol",
                                     "questionId": 3,
                                     "correct": false
                                 }
@@ -239,29 +228,29 @@
                         },
                         {
                             "id": 4,
-                            "questionText": "Kada buvo pristatyta dėmesingumo pagrįsta meno terapija (MBAT) ir kas ją pristatė?",
+                            "questionText": "Hvornår og af hvem blev opmærksomhedsbaseret kunstterapi (MBAT) introduceret?",
                             "options": [
                                 {
                                     "id": 13,
-                                    "optionText": "1940-aisiais, Laury Rappaport",
+                                    "optionText": "I 1940'erne, af Laury Rappaport",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 14,
-                                    "optionText": "2009-aisiais, Laury Rappaport",
+                                    "optionText": "I 2009, af Laury Rappaport",
                                     "questionId": 4,
                                     "correct": true
                                 },
                                 {
                                     "id": 15,
-                                    "optionText": "1990-aisiais, Licencijuotas psichikos sveikatos konsultantas",
+                                    "optionText": "I 1990'erne, af en autoriseret psykoterapeut",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 16,
-                                    "optionText": "2010, Dėmesio Institutas",
+                                    "optionText": "I 2010, af Attention Institute",
                                     "questionId": 4,
                                     "correct": false
                                 }
@@ -271,8 +260,6 @@
                     "unitId": 4
                 }
             ];
-
-
 
             let userAnswers = new Array(quizData[0].questions.length).fill(null);
 
@@ -318,7 +305,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Korrekte svar: ${correctAnswers}\nForkerte svar: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }

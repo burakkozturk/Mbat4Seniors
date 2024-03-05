@@ -142,255 +142,96 @@
         </div>
         <script>
 
-            const quizData = [
-                {
-                    "id": 1,
-                    "title": "Savęs vertinimo klausimai",
-                    "questions": [
-                        {
-                            "id": 1,
-                            "questionText": "Koks yra pagrindinis vyresnio amžiaus žmonių meninės terapijos, grindžiamos dėmesingumo ugdymu, mokymo tikslas, kaip nurodyta tekste?",
-                            "options": [
-                                {
-                                    "id": 1,
-                                    "optionText": "Fizinės sveikatos gerinimas",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 2,
-                                    "optionText": "Meninių įgūdžių plėtojimas",
-                                    "questionId": 1,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 3,
-                                    "optionText": "Emocinės ir psichinės gerovės gerinimas",
-                                    "questionId": 1,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 4,
-                                    "optionText": "Istorinių meno technikų tyrinėjimas",
-                                    "questionId": 1,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 2,
-                            "questionText": "Kuris vyresnio amžiaus žmonių aspektas yra pabrėžiamas mokymuose, išryškinant jų autentiškumo ir gyvenimo patirties svarbą?",
-                            "options": [
-                                {
-                                    "id": 5,
-                                    "optionText": "Fiziniai gebėjimai",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 6,
-                                    "optionText": "Kognityviniai įgūdžiai",
-                                    "questionId": 2,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 7,
-                                    "optionText": "Emocinė ir psichinė gerovė",
-                                    "questionId": 2,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 8,
-                                    "optionText": "Socialinės sąveikos",
-                                    "questionId": 2,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 3,
-                            "questionText": "Kas yra pagrindinis mokymų struktūros dėmesys, naudojant praktinius pavyzdžius ir atvejo studijas?",
-                            "options": [
-                                {
-                                    "id": 9,
-                                    "optionText": "Teorinės žinios",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 10,
-                                    "optionText": "Etikos principai",
-                                    "questionId": 3,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 11,
-                                    "optionText": "Interaktyvus mokymasis",
-                                    "questionId": 3,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 12,
-                                    "optionText": "Klinikinė praktika",
-                                    "questionId": 3,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 4,
-                            "questionText": "Kokios temos nagrinėjamos švietimo programose, susijusiose su dėmesingumo pagrindu vykdoma menine terapija vyresnio amžiaus žmonėms?",
-                            "options": [
-                                {
-                                    "id": 13,
-                                    "optionText": "Planavimas, įgyvendinimas ir vertinimas",
-                                    "questionId": 4,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 14,
-                                    "optionText": "Ekologija ir cirkulinė ekonomika",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 15,
-                                    "optionText": "Fizika ir chemija",
-                                    "questionId": 4,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 16,
-                                    "optionText": "Socialinės ir politinės problemos",
-                                    "questionId": 4,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "questionText": "Pagal tekstą, kuri meninės terapijos technika laikoma pagrindine?",
-                            "options": [
-                                {
-                                    "id": 17,
-                                    "optionText": "Koliažas",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 18,
-                                    "optionText": "Muzika",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 19,
-                                    "optionText": "Drama",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 20,
-                                    "optionText": "Tapyba",
-                                    "questionId": 5,
-                                    "correct": true
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "questionText": "Kaip tekste apibūdinama koliažo terapija?",
-                            "options": [
-                                {
-                                    "id": 17,
-                                    "optionText": "Metodas, naudojantis tik skaitmenines medžiagas",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 18,
-                                    "optionText": "Technika tapybai ir piešimui",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 19,
-                                    "optionText": "Kasdienių objektų naudojimas meno terapijoje",
-                                    "questionId": 5,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 20,
-                                    "optionText": "Metodas, skirtas tik traumų pacientams",
-                                    "questionId": 5,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "questionText": "Koks yra molio naudojimo meno terapijoje tikslas, kaip aprašyta tekste?",
-                            "options": [
-                                {
-                                    "id": 17,
-                                    "optionText": "Pagrindinių virtuvės įrankių poreikių tenkinimas",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 18,
-                                    "optionText": "Sudėtingų meno kūrinių kūrimas",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 19,
-                                    "optionText": "Rankų įgūdžių lavinimas ir dvasinio atsipalaidavimo teikimas",
-                                    "questionId": 5,
-                                    "correct": true
-                                },
-                                {
-                                    "id": 20,
-                                    "optionText": "Tradicinių terapijos metodų pakeitimas",
-                                    "questionId": 5,
-                                    "correct": false
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "questionText": "Pagal tekstą, kas aptariama skyriuje 'Tyrimai ir etika', susijusiame su meno terapijos praktikomis?",
-                            "options": [
-                                {
-                                    "id": 17,
-                                    "optionText": "Meno terapijos istorinis fonas",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 18,
-                                    "optionText": "Etinės vertybės ir principai",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 19,
-                                    "optionText": "Meno terapeutų rinkodaros strategijos",
-                                    "questionId": 5,
-                                    "correct": false
-                                },
-                                {
-                                    "id": 20,
-                                    "optionText": "Meno terapijos technikos traumų palengvinimui",
-                                    "questionId": 5,
-                                    "correct": true
-                                }
-                            ]
-                        }
-                    ],
-                    "unitId": 4
-                }
-            ];
+const quizData = [
+    {
+        "id": 1,
+        "title": "Preguntas de Autoevaluación",
+        "questions": [
+            {
+                "id": 1,
+                "questionText": "¿Cuál es el objetivo principal de la terapia artística para personas mayores basada en la atención plena, según se indica en el texto?",
+                "options": [
+                    { "id": 1, "optionText": "Mejorar la salud física", "questionId": 1, "correct": false },
+                    { "id": 2, "optionText": "Desarrollar habilidades artísticas", "questionId": 1, "correct": false },
+                    { "id": 3, "optionText": "Mejorar el bienestar emocional y mental", "questionId": 1, "correct": true },
+                    { "id": 4, "optionText": "Explorar técnicas artísticas históricas", "questionId": 1, "correct": false }
+                ]
+            },
+            {
+                "id": 2,
+                "questionText": "¿Qué aspecto de las personas mayores se destaca en la enseñanza, enfatizando la importancia de su autenticidad y experiencia de vida?",
+                "options": [
+                    { "id": 5, "optionText": "Habilidades físicas", "questionId": 2, "correct": false },
+                    { "id": 6, "optionText": "Habilidades cognitivas", "questionId": 2, "correct": false },
+                    { "id": 7, "optionText": "Bienestar emocional y mental", "questionId": 2, "correct": true },
+                    { "id": 8, "optionText": "Interacciones sociales", "questionId": 2, "correct": false }
+                ]
+            },
+            {
+                "id": 3,
+                "questionText": "¿Cuál es el enfoque principal de la estructura educativa al utilizar ejemplos prácticos y estudios de casos?",
+                "options": [
+                    { "id": 9, "optionText": "Conocimiento teórico", "questionId": 3, "correct": false },
+                    { "id": 10, "optionText": "Principios éticos", "questionId": 3, "correct": false },
+                    { "id": 11, "optionText": "Aprendizaje interactivo", "questionId": 3, "correct": true },
+                    { "id": 12, "optionText": "Práctica clínica", "questionId": 3, "correct": false }
+                ]
+            },
+            {
+                "id": 4,
+                "questionText": "¿Qué temas se abordan en los programas educativos relacionados con la terapia artística basada en la atención plena para personas mayores?",
+                "options": [
+                    { "id": 13, "optionText": "Planificación, implementación y evaluación", "questionId": 4, "correct": true },
+                    { "id": 14, "optionText": "Ecología y economía circular", "questionId": 4, "correct": false },
+                    { "id": 15, "optionText": "Física y química", "questionId": 4, "correct": false },
+                    { "id": 16, "optionText": "Problemas sociales y políticos", "questionId": 4, "correct": false }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Según el texto, ¿qué técnica de terapia artística se considera fundamental?",
+                "options": [
+                    { "id": 17, "optionText": "Collage", "questionId": 5, "correct": false },
+                    { "id": 18, "optionText": "Música", "questionId": 5, "correct": false },
+                    { "id": 19, "optionText": "Drama", "questionId": 5, "correct": false },
+                    { "id": 20, "optionText": "Pintura", "questionId": 5, "correct": true }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "¿Cómo se describe la terapia de collage en el texto?",
+                "options": [
+                    { "id": 17, "optionText": "Método que utiliza solo materiales digitales", "questionId": 5, "correct": false },
+                    { "id": 18, "optionText": "Técnica para pintar y dibujar", "questionId": 5, "correct": false },
+                    { "id": 19, "optionText": "Uso de objetos cotidianos en terapia artística", "questionId": 5, "correct": true },
+                    { "id": 20, "optionText": "Método solo para pacientes con traumatismos", "questionId": 5, "correct": false }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "¿Cuál es el objetivo del uso de arcilla en la terapia artística, según se describe en el texto?",
+                "options": [
+                    { "id": 17, "optionText": "Satisfacer las necesidades básicas de utensilios de cocina", "questionId": 5, "correct": false },
+                    { "id": 18, "optionText": "Crear obras de arte complejas", "questionId": 5, "correct": false },
+                    { "id": 19, "optionText": "Desarrollar habilidades manuales y proporcionar relajación espiritual", "questionId": 5, "correct": true },
+                    { "id": 20, "optionText": "Reemplazar métodos de terapia tradicionales", "questionId": 5, "correct": false }
+                ]
+            },
+            {
+                "id": 5,
+                "questionText": "Según el texto, ¿qué se discute en la sección 'Investigación y ética' relacionada con las prácticas de terapia artística?",
+                "options": [
+                    { "id": 17, "optionText": "Antecedentes históricos de la terapia artística", "questionId": 5, "correct": false },
+                    { "id": 18, "optionText": "Valores y principios éticos", "questionId": 5, "correct": false },
+                    { "id": 19, "optionText": "Estrategias de marketing para terapeutas de arte", "questionId": 5, "correct": false },
+                    { "id": 20, "optionText": "Técnicas de terapia artística para aliviar traumas", "questionId": 5, "correct": true }
+                ]
+            }
+        ],
+        "unitId": 4
+    }
+];
+
 
 
 

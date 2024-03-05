@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || DA</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -119,13 +112,13 @@
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
+                <a href="../../index.html">Hjem</a>
+                <a href="../partnership.html">Partnerskab</a>
+                <a href="../objectives.html">Mål</a>
                 <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../about.html">Om MBAT</a>
+                <a href="../result.html">Resultater</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -134,10 +127,10 @@
 
 
             <div class="container" id="quizContainer">
-                <h2 style="color: #008CBA;">Self-evaluation questions</h2>
+                <h2 style="color: #008CBA;">Selvvurderingsspørgsmål</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+            <button id="submitBtn" onclick="submitAnswers()">Indsend</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Færdig</button>
 
         </div>
         <script>
@@ -145,33 +138,33 @@
             const quizData = [
                 {
                     "id": 1,
-                    "title": "Savęs vertinimo klausimai",
+                    "title": "Selvvurderingsspørgsmål",
                     "questions": [
                         {
                             "id": 1,
-                            "questionText": "Pagal tekstą, kas pristatė Mindfulness-Based Art Therapy (MBAT) koncepciją ir kurį tai įvyko?",
+                            "questionText": "Ifølge teksten, hvem introducerede Mindfulness-Based Art Therapy (MBAT) konceptet og hvornår skete det?",
                             "options": [
                                 {
                                     "id": 1,
-                                    "optionText": "Jon Kabat-Zinn 1979 m.",
+                                    "optionText": "Jon Kabat-Zinn i 1979",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 2,
-                                    "optionText": "Laury Rappaport 2009 m.",
+                                    "optionText": "Laury Rappaport i 2009",
                                     "questionId": 1,
                                     "correct": true
                                 },
                                 {
                                     "id": 3,
-                                    "optionText": "Streso mažinimo klinika 1940-aisiais m.",
+                                    "optionText": "Stress Reduction Clinic i 1940'erne",
                                     "questionId": 1,
                                     "correct": false
                                 },
                                 {
                                     "id": 4,
-                                    "optionText": "Focusing Institute 2014 m.",
+                                    "optionText": "Focusing Institute i 2014",
                                     "questionId": 1,
                                     "correct": false
                                 }
@@ -179,29 +172,29 @@
                         },
                         {
                             "id": 2,
-                            "questionText": "Koks pagrindinis MBAT privalumas, kaip paminėta tekste?",
+                            "questionText": "Hvad er den primære fordel ved MBAT, som nævnt i teksten?",
                             "options": [
                                 {
                                     "id": 5,
-                                    "optionText": "Reikalingos terapinės pokalbių sesijos",
+                                    "optionText": "Det kræver terapeutiske samtaler",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 6,
-                                    "optionText": "Gali būti praktikuojama tik terapiniame aplinkoje",
+                                    "optionText": "Det kan kun praktiseres i terapeutiske miljøer",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 7,
-                                    "optionText": "Gali būti praktikuojama nepriklausomai namuose",
+                                    "optionText": "Det kan praktiseres uafhængigt derhjemme",
                                     "questionId": 2,
                                     "correct": true
                                 },
                                 {
                                     "id": 8,
-                                    "optionText": "Yra ekskluzviai sutelkta į baigtą meninį produktą",
+                                    "optionText": "Det fokuserer udelukkende på det færdige kunstneriske produkt",
                                     "questionId": 2,
                                     "correct": false
                                 }
@@ -209,29 +202,29 @@
                         },
                         {
                             "id": 3,
-                            "questionText": "Kuri gerai žinoma meno terapijos kryptis tekste minima kaip naudojama MBAT požiūryje?",
+                            "questionText": "Hvilken velkendt kunstterapimetode nævnes som brugt i MBAT-metoden i teksten?",
                             "options": [
                                 {
                                     "id": 9,
-                                    "optionText": "Decoupage terapija",
+                                    "optionText": "Decoupage terapi",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 10,
-                                    "optionText": "Mandala piešimo terapija",
+                                    "optionText": "Mandala tegningsterapi",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 11,
-                                    "optionText": "Dramos terapija",
+                                    "optionText": "Dramaterapi",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 12,
-                                    "optionText": "Muzikos terapija",
+                                    "optionText": "Musikterapi",
                                     "questionId": 3,
                                     "correct": true
                                 }
@@ -239,29 +232,29 @@
                         },
                         {
                             "id": 4,
-                            "questionText": "Kaip, pagal pateiktą informaciją, MBAT prisideda prie senyvo amžiaus žmonių gyvenimo kokybės?",
+                            "questionText": "Hvordan bidrager MBAT ifølge den angivne information til livskvaliteten hos ældre mennesker?",
                             "options": [
                                 {
                                     "id": 13,
-                                    "optionText": "Sutelkiant dėmesį į baigtą meninį produktą",
+                                    "optionText": "Ved at fokusere på det færdige kunstneriske produkt",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 14,
-                                    "optionText": "Pabrėžiant terapines pokalbių sesijas",
+                                    "optionText": "Ved at fremhæve terapeutiske samtaler",
                                     "questionId": 4,
                                     "correct": false
                                 },
                                 {
                                     "id": 15,
-                                    "optionText": "Suteikiant palengvėjimą nuo rūpesčių",
+                                    "optionText": "Ved at give lettelse fra bekymringer",
                                     "questionId": 4,
                                     "correct": true
                                 },
                                 {
                                     "id": 16,
-                                    "optionText": "Neįtraukiant kūrybinių procesų",
+                                    "optionText": "Ved ikke at inddrage kreative processer",
                                     "questionId": 4,
                                     "correct": false
                                 }
@@ -318,7 +311,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Korrekte svar: ${correctAnswers}\nForkerte svar: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }
