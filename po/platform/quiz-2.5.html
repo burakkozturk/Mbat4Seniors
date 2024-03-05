@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || PL</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,15 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
+            /* Maksymalna szerokość */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
+            /* Dostosuj szerokość do ekranu */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
+            /* Dodaj lekką cień */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
+            /* Dodaj margines z góry i z dołu */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
+            /* Zaokrągl rogi */
         }
 
         .question {
@@ -53,9 +53,9 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
+            /* Wyświetl przyciski jako blok */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
+            /* Wyśrodkuj przyciski */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -119,13 +119,13 @@
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
-                <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../../index.html">Strona główna</a>
+                <a href="../partnership.html">Współpraca</a>
+                <a href="../objectives.html">Cele</a>
+                <a href="/en/platform/courses.html">Platforma</a>
+                <a href="../about.html">O MBAT</a>
+                <a href="../result.html">Wyniki</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -134,10 +134,10 @@
 
 
             <div class="container" id="quizContainer">
-                <h2 style="color: #008CBA;">Self-evaluation questions</h2>
+                <h2 style="color: #A12866;">Pytania do samooceny</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+            <button id="submitBtn" onclick="submitAnswers()">Prześlij</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Gotowe</button>
 
         </div>
         <script>
@@ -149,7 +149,7 @@
                     "questions": [
                         {
                             "id": 1,
-                            "questionText": "Pagal tekstą, kas pristatė Mindfulness-Based Art Therapy (MBAT) koncepciją ir kurį tai įvyko?",
+                            "questionText": "Pagal tekstą, kas įvedė sąmoningumo pagrindu grindžiamą meninę terapiją (MBAT) ir kuriuo metais ji buvo įvesta?",
                             "options": [
                                 {
                                     "id": 1,
@@ -165,7 +165,7 @@
                                 },
                                 {
                                     "id": 3,
-                                    "optionText": "Streso mažinimo klinika 1940-aisiais m.",
+                                    "optionText": "Streso mažinimo klinika 1940-aisiais",
                                     "questionId": 1,
                                     "correct": false
                                 },
@@ -179,29 +179,29 @@
                         },
                         {
                             "id": 2,
-                            "questionText": "Koks pagrindinis MBAT privalumas, kaip paminėta tekste?",
+                            "questionText": "Koks pagrindinis MBAT privalumas, paminėtas tekste?",
                             "options": [
                                 {
                                     "id": 5,
-                                    "optionText": "Reikalingos terapinės pokalbių sesijos",
+                                    "optionText": "Jis reikalauja terapinių pokalbių",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 6,
-                                    "optionText": "Gali būti praktikuojama tik terapiniame aplinkoje",
+                                    "optionText": "Jį galima praktikuoti tik terapinėje aplinkoje",
                                     "questionId": 2,
                                     "correct": false
                                 },
                                 {
                                     "id": 7,
-                                    "optionText": "Gali būti praktikuojama nepriklausomai namuose",
+                                    "optionText": "Jį galima praktikuoti nepriklausomai namuose",
                                     "questionId": 2,
                                     "correct": true
                                 },
                                 {
                                     "id": 8,
-                                    "optionText": "Yra ekskluzviai sutelkta į baigtą meninį produktą",
+                                    "optionText": "Jis ekskliuzyviai sutelktas į baigtąją meninę produktą",
                                     "questionId": 2,
                                     "correct": false
                                 }
@@ -209,17 +209,17 @@
                         },
                         {
                             "id": 3,
-                            "questionText": "Kuri gerai žinoma meno terapijos kryptis tekste minima kaip naudojama MBAT požiūryje?",
+                            "questionText": "Kuri gerai žinoma meno terapijos sritis, pagal tekstą, minimą kaip naudojama MBAT požiūryje?",
                             "options": [
                                 {
                                     "id": 9,
-                                    "optionText": "Decoupage terapija",
+                                    "optionText": "Dekupazas",
                                     "questionId": 3,
                                     "correct": false
                                 },
                                 {
                                     "id": 10,
-                                    "optionText": "Mandala piešimo terapija",
+                                    "optionText": "Mandala piešimas",
                                     "questionId": 3,
                                     "correct": false
                                 },
@@ -318,7 +318,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Poprawne odpowiedzi: ${correctAnswers}\nNiepoprawne odpowiedzi: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }

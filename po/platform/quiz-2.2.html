@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Test || EN</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -119,13 +112,13 @@
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
-                <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../../index.html">Strona główna</a>
+                <a href="../partnership.html">Partnerstwo</a>
+                <a href="../objectives.html">Cele</a>
+                <a href="/en/platform/courses.html">Platforma</a>
+                <a href="../about.html">O MBAT</a>
+                <a href="../result.html">Wyniki</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -134,10 +127,10 @@
 
 
             <div class="container" id="quizContainer">
-                <h2 style="color: #A12866;">Self-evaluation questions</h2>
+                <h2 style="color: #A12866;">Pytania samodzielnego oceniania</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+            <button id="submitBtn" onclick="submitAnswers()">Zatwierdź</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Gotowe</button>
 
         </div>
         <script>
@@ -299,7 +292,7 @@
                         },
                         {
                             "id": 5,
-                            "questionText": "Kaip tekste apibūdinama koliažo terapija?",
+                            "questionText": "Kaip tekste apibūdinama koliažo terapija?",
                             "options": [
                                 {
                                     "id": 17,
@@ -438,7 +431,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Poprawne odpowiedzi: ${correctAnswers}\nNiepoprawne odpowiedzi: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }

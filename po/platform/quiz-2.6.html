@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || PL</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -119,13 +112,13 @@
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
-                <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../../index.html">Start</a>
+                <a href="../partnership.html">Współpraca</a>
+                <a href="../objectives.html">Cele</a>
+                <a href="/en/platform/courses.html">Platforma</a>
+                <a href="../about.html">O MBAT</a>
+                <a href="../result.html">Wyniki</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
@@ -134,10 +127,10 @@
 
 
             <div class="container" id="quizContainer">
-                <h2 style="color: #4CAF50;">Self-evaluation questions</h2>
+                <h2 style="color: #4CAF50;">Pytania do samooceny</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
+            <button id="submitBtn" onclick="submitAnswers()">Wyślij</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Gotowe</button>
 
         </div>
         <script>
@@ -145,33 +138,33 @@
 const quizData = [
     {
         "id": 1,
-        "title": "Savęs vertinimo klausimai",
+        "title": "Pytania do samooceny",
         "questions": [
             {
                 "id": 1,
-                "questionText": "Koks yra pagrindinis dėmesys, taikant ciklinę ekonomiką ir aplinkai draugišką požiūrį MBAT?",
+                "questionText": "Jaki jest główny nacisk w stosowaniu ekonomii cyklicznej i przyjaznego dla środowiska podejścia MBAT?",
                 "options": [
                     {
                         "id": 1,
-                        "optionText": "Pabrėžiant brangius meninius medžiagų",
+                        "optionText": "Podkreślając kosztowne materiały artystyczne",
                         "questionId": 1,
                         "correct": false
                     },
                     {
                         "id": 2,
-                        "optionText": "Skatinant iššvaistymo praktikas",
+                        "optionText": "Promując praktyki marnotrawienia",
                         "questionId": 1,
                         "correct": true
                     },
                     {
                         "id": 3,
-                        "optionText": "Naudoti tvarias ir netoksiškas medžiagas menams kurti",
+                        "optionText": "Używając trwałych i nietoksycznych materiałów do tworzenia sztuki",
                         "questionId": 1,
                         "correct": false
                     },
                     {
                         "id": 4,
-                        "optionText": "Ignoruojant meninių medžiagų aplinkos poveikį",
+                        "optionText": "Ignorując wpływ materiałów artystycznych na środowisko",
                         "questionId": 1,
                         "correct": false
                     }
@@ -179,29 +172,29 @@ const quizData = [
             },
             {
                 "id": 2,
-                "questionText": "Kaip klientai gali būti paskatinti mažinti atliekas MBAT, remiantis pateikta informacija?",
+                "questionText": "Jak klienci mogą być zachęcani do zmniejszania odpadów MBAT na podstawie dostarczonych informacji?",
                 "options": [
                     {
                         "id": 5,
-                        "optionText": "Atsisakant medžiagų po vieną naudojimo",
+                        "optionText": "Odmawiając używania materiałów pojedynczego użytku",
                         "questionId": 2,
                         "correct": false
                     },
                     {
                         "id": 6,
-                        "optionText": "Venkant perdirbto popieriaus naudojimo",
+                        "optionText": "Unikając użycia przetworzonego papieru",
                         "questionId": 2,
                         "correct": false
                     },
                     {
                         "id": 7,
-                        "optionText": "Perdirbant ir panaudojant menines medžiagas",
+                        "optionText": "Przetwarzając i wykorzystując materiały artystyczne",
                         "questionId": 2,
                         "correct": true
                     },
                     {
                         "id": 8,
-                        "optionText": "Naudoti sintetinius dažus meniniams projektams",
+                        "optionText": "Używając syntetycznych farb do projektów artystycznych",
                         "questionId": 2,
                         "correct": false
                     }
@@ -209,29 +202,29 @@ const quizData = [
             },
             {
                 "id": 3,
-                "questionText": "Koks metodas apima atliekų medžiagų transformavimą į naujus, naudingus produktus MBAT?",
+                "questionText": "Jaka metoda obejmuje przekształcanie odpadów w nowe, przydatne produkty MBAT?",
                 "options": [
                     {
                         "id": 9,
-                        "optionText": "Atsakingas vartojimas",
+                        "optionText": "Odpowiedzialne spożywanie",
                         "questionId": 3,
                         "correct": false
                     },
                     {
                         "id": 10,
-                        "optionText": "Bendradarbiavimas kuriant meną",
+                        "optionText": "Współpraca w tworzeniu sztuki",
                         "questionId": 3,
                         "correct": false
                     },
                     {
                         "id": 11,
-                        "optionText": "Aplinkai sąmoningas išmetimas",
+                        "optionText": "Świadome wyrzucanie śmieci",
                         "questionId": 3,
                         "correct": false
                     },
                     {
                         "id": 12,
-                        "optionText": "Perdirbimas",
+                        "optionText": "Recykling",
                         "questionId": 3,
                         "correct": true
                     }
@@ -239,29 +232,29 @@ const quizData = [
             },
             {
                 "id": 4,
-                "questionText": "Kaip MBAT gali būti pritaikytas atitikti senyvo amžiaus žmonių unikalias poreikius ir gebėjimus ciklinės ekonomikos ir aplinkai draugiškų principų požiūriu?",
+                "questionText": "Jak MBAT może być dostosowany, aby spełniać unikalne potrzeby i umiejętności osób starszych pod względem zasad ekonomii cyklicznej i przyjaznych dla środowiska?",
                 "options": [
                     {
                         "id": 13,
-                        "optionText": "Nepriteikiant skaitmeninių įrankių naudojimo",
+                        "optionText": "Nie stosując narzędzi cyfrowych",
                         "questionId": 4,
                         "correct": false
                     },
                     {
                         "id": 14,
-                        "optionText": "Skatinant iššvaistymo praktikas",
+                        "optionText": "Promując praktyki marnotrawienia",
                         "questionId": 4,
                         "correct": false
                     },
                     {
                         "id": 15,
-                        "optionText": "Įtraukiant gamtos pagrindo veiklas",
+                        "optionText": "Włączając działania oparte na naturze",
                         "questionId": 4,
                         "correct": true
                     },
                     {
                         "id": 16,
-                        "optionText": "Venkant bendradarbiavimo menų projektuose",
+                        "optionText": "Unikając współpracy w projektach artystycznych",
                         "questionId": 4,
                         "correct": false
                     }
@@ -269,29 +262,29 @@ const quizData = [
             },
             {
                 "id": 5,
-                "questionText": "Kokia yra aplinkai sąmoningo išmetimo svarba MBAT?",
+                "questionText": "Jaka jest rola świadomego wyrzucania odpadów w MBAT?",
                 "options": [
                     {
                         "id": 17,
-                        "optionText": "Tai remia tinkamą pavojingų atliekų tvarkymą",
+                        "optionText": "Wspieranie odpowiedniego zarządzania niebezpiecznymi odpadami",
                         "questionId": 5,
                         "correct": true
                     },
                     {
                         "id": 18,
-                        "optionText": "Tai skatina meninių medžiagų sukaupti",
+                        "optionText": "Promowanie gromadzenia materiałów artystycznych",
                         "questionId": 5,
                         "correct": false
                     },
                     {
                         "id": 19,
-                        "optionText": "Tai skatina pavojingų atliekų naudojimą",
+                        "optionText": "Promowanie używania niebezpiecznych odpadów",
                         "questionId": 5,
                         "correct": false
                     },
                     {
                         "id": 20,
-                        "optionText": "Tai vengia bet kokio išmetimo formos",
+                        "optionText": "Unikanie wszelkich form odpadów",
                         "questionId": 5,
                         "correct": false
                     }
@@ -348,7 +341,7 @@ const quizData = [
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Poprawne odpowiedzi: ${correctAnswers}\nNiepoprawne odpowiedzi: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }

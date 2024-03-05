@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz || EN</title>
+    <title>Quiz || PL</title>
 
     <link rel="stylesheet" href="../../css/home.css">
 
@@ -21,15 +21,10 @@
         .container {
             padding: 20px;
             max-width: 600px;
-            /* Maksimum genişlik */
             width: 100%;
-            /* Genişliği ekrana göre ayarla */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            /* Hafif bir gölge ekle */
             margin: 20px;
-            /* Üstten ve alttan boşluk ekle */
             border-radius: 8px;
-            /* Köşeleri yuvarla */
         }
 
         .question {
@@ -53,9 +48,7 @@
         #submitBtn,
         #doneButton {
             display: block;
-            /* Butonları blok seviyesinde göster */
             margin: 20px auto;
-            /* Otomatik marjın ile merkezde konumlandır */
             padding: 10px 20px;
             cursor: pointer;
             border: none;
@@ -72,7 +65,6 @@
 </head>
 
 <body>
-
 
     <div class="vertical-boxes">
         <a href="../../index.html">
@@ -112,64 +104,59 @@
         </a>
     </div>
 
-
     <hr style="opacity: 0.3;">
 
     <div class="navigation-bar">
         <img src="../../img/logo.png" alt="">
         <ul>
             <li>
-                <a href="../../index.html">Home</a>
-                <a href="../partnership.html">Partnership</a>
-                <a href="../objectives.html">Objectives</a>
-                <a href="/en/platform/courses.html">Platform</a>
-                <a href="../about.html">About MBAT</a>
-                <a href="../result.html">Results</a>
-                <a href="../../contact.html">Contact</a>
+                <a href="../../index.html">Strona główna</a>
+                <a href="../partnership.html">Partnerstwo</a>
+                <a href="../objectives.html">Cele</a>
+                <a href="/en/platform/courses.html">Platforma</a>
+                <a href="../about.html">O MBAT</a>
+                <a href="../result.html">Wyniki</a>
+                <a href="../../contact.html">Kontakt</a>
             </li>
         </ul>
     </div>
     <div>
         <div class="all">
-
-
             <div class="container" id="quizContainer">
-                <h2 style="color: #4CAF50;">Self-evaluation questions</h2>
+                <h2 style="color: #4CAF50;">Pytania samodzielnego oceniania</h2>
             </div>
-            <button id="submitBtn" onclick="submitAnswers()">Submit</button>
-            <button id="doneButton" onclick="window.location.href='unit-2.html';">Done</button>
-
+            <button id="submitBtn" onclick="submitAnswers()">Zatwierdź</button>
+            <button id="doneButton" onclick="window.location.href='unit-2.html';">Gotowe</button>
         </div>
         <script>
-
             const quizData = [
                 {
                     "id": 1,
-                    "title": "Savęs įvertinimo klausimai",
+                    "title": "Pytania samodzielnego oceniania",
                     "questions": [
                         {
                             "id": 1,
-                            "questionText": "Kokiu tyrimo metodu buvo atliktas projektui reikalingų mokymo medžiagų poreikio analizė?",
+                            "questionText": "Jaką metodą badawczą przeprowadzono analizę potrzeb szkoleniowych potrzebnych do projektu?",
                             "options": [
-                                { "id": 1, "optionText": "Apklausos", "questionId": 1, "correct": false },
-                                { "id": 2, "optionText": "Interviu", "questionId": 1, "correct": true },
-                                { "id": 3, "optionText": "Teminė analizė", "questionId": 1, "correct": false },
-                                { "id": 4, "optionText": "Atvejo studijos", "questionId": 1, "correct": false }
+                                { "id": 1, "optionText": "Ankiety", "questionId": 1, "correct": false },
+                                { "id": 2, "optionText": "Wywiady", "questionId": 1, "correct": true },
+                                { "id": 3, "optionText": "Analiza tematyczna", "questionId": 1, "correct": false },
+                                { "id": 4, "optionText": "Studia przypadku", "questionId": 1, "correct": false }
                             ]
                         },
                         {
                             "id": 2,
-                            "questionText": "Koks buvo pagrindinis 2022 m. vasarą pradėto tyrimo tikslas?",
+                            "questionText": "Jaki był główny cel przeprowadzonego latem 2022 roku badania?",
                             "options": [
-                                { "id": 5, "optionText": "Senjorų fizinės sveikatos įvertinimas", "questionId": 2, "correct": false },
-                                { "id": 6, "optionText": "Dažniausiai pasitaikančių psichikos sveikatos problemų tarp senjorų COVID-19 pandemijos metu nustatymas", "questionId": 2, "correct": true },
-                                { "id": 7, "optionText": "Esamų mobiliojo ryšio programų efektyvumo įvertinimas", "questionId": 2, "correct": false },
-                                { "id": 8, "optionText": "Senjorų ir suaugusiųjų švietėjų IT įgūdžių analizė", "questionId": 2, "correct": false }
+                                { "id": 5, "optionText": "Ocena fizycznego stanu zdrowia seniorów", "questionId": 2, "correct": false },
+                                { "id": 6, "optionText": "Identyfikacja najczęstszych problemów ze zdrowiem psychicznym seniorów podczas pandemii COVID-19", "questionId": 2, "correct": true },
+                                { "id": 7, "optionText": "Ocena skuteczności istniejących aplikacji mobilnych", "questionId": 2, "correct": false },
+                                { "id": 8, "optionText": "Analiza umiejętności IT seniorów i nauczycieli dorosłych", "questionId": 2, "correct": false }
                             ]
                         },
                         {
                             "id": 3,
-                            "questionText": "Kiek specialistų buvo interviuoti iš šešių projekto partnerių šalių?",
+                            "questionText": "Ilu specjalistów przeprowadzono wywiady wśród sześciu krajowych partnerów projektu?",
                             "options": [
                                 { "id": 9, "optionText": "22", "questionId": 3, "correct": false },
                                 { "id": 10, "optionText": "33", "questionId": 3, "correct": true },
@@ -179,30 +166,28 @@
                         },
                         {
                             "id": 4,
-                            "questionText": "Kokiu tyrimo metodu buvo analizuoti surinkti duomenys?",
+                            "questionText": "Jaką metodą analizowano zebrane dane?",
                             "options": [
-                                { "id": 13, "optionText": "Statistinė analizė", "questionId": 4, "correct": false },
-                                { "id": 14, "optionText": "Teminė analizė", "questionId": 4, "correct": true },
-                                { "id": 15, "optionText": "Palyginamoji analizė", "questionId": 4, "correct": false },
-                                { "id": 16, "optionText": "Eksperimentinė analizė", "questionId": 4, "correct": false }
+                                { "id": 13, "optionText": "Analiza statystyczna", "questionId": 4, "correct": false },
+                                { "id": 14, "optionText": "Analiza tematyczna", "questionId": 4, "correct": true },
+                                { "id": 15, "optionText": "Analiza porównawcza", "questionId": 4, "correct": false },
+                                { "id": 16, "optionText": "Analiza eksperymentalna", "questionId": 4, "correct": false }
                             ]
                         },
                         {
                             "id": 5,
-                            "questionText": "Remiantis tyrimu, kokios pagrindinės temos išryškėjo iš teminės rezultatų analizės?",
+                            "questionText": "Na podstawie badania, jakie główne tematy wyszły z analizy tematycznej?",
                             "options": [
-                                { "id": 17, "optionText": "Ekonomikos problemos, politiniai iššūkiai, socialinės galimybės", "questionId": 5, "correct": false },
-                                { "id": 18, "optionText": "Psichologinės problemos, priežastys, susidorojimo strategijos, iššūkiai ir programėlių specifikacijos", "questionId": 5, "correct": true },
-                                { "id": 19, "optionText": "Kultūriniai skirtumai, kalbos barjerai, technologinė pažanga", "questionId": 5, "correct": false },
-                                { "id": 20, "optionText": "Fizinė sveikata, emocinė gerovė, aplinkos veiksniai", "questionId": 5, "correct": false }
+                                { "id": 17, "optionText": "Problemy ekonomiczne, wyzwania polityczne, możliwości społeczne", "questionId": 5, "correct": false },
+                                { "id": 18, "optionText": "Problemy psychologiczne, przyczyny, strategie radzenia sobie, wyzwania i specyfikacje aplikacji", "questionId": 5, "correct": true },
+                                { "id": 19, "optionText": "Różnice kulturowe, bariery językowe, postęp technologiczny", "questionId": 5, "correct": false },
+                                { "id": 20, "optionText": "Zdrowie fizyczne, dobrostan emocjonalny, czynniki środowiskowe", "questionId": 5, "correct": false }
                             ]
                         }
                     ],
                     "unitId": 4
                 }
             ];
-
-
 
             let userAnswers = new Array(quizData[0].questions.length).fill(null);
 
@@ -248,7 +233,7 @@
             function submitAnswers() {
                 const correctAnswers = userAnswers.filter(answer => answer === true).length;
                 const incorrectAnswers = userAnswers.length - correctAnswers;
-                alert(`Correct answers: ${correctAnswers}\nIncorrect answers: ${incorrectAnswers}`);
+                alert(`Poprawne odpowiedzi: ${correctAnswers}\nBłędne odpowiedzi: ${incorrectAnswers}`);
                 document.getElementById('submitBtn').style.display = 'none';
                 document.getElementById('doneButton').style.display = 'block';
             }
